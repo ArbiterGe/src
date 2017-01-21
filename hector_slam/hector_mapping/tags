@@ -1,0 +1,454 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CachedMapElement	include/hector_slam_lib/map/GridMapCacheArray.h	/^class CachedMapElement$/;"	c
+DataContainer	include/hector_slam_lib/scan/DataPointContainer.h	/^typedef DataPointContainer<Eigen::Vector2f> DataContainer;$/;"	t	namespace:hectorslam
+DataPointContainer	include/hector_slam_lib/scan/DataPointContainer.h	/^  DataPointContainer(int size = 1000)$/;"	f	class:hectorslam::DataPointContainer
+DataPointContainer	include/hector_slam_lib/scan/DataPointContainer.h	/^class DataPointContainer$/;"	c	namespace:hectorslam
+DrawInterface	include/hector_slam_lib/util/DrawInterface.h	/^class DrawInterface{$/;"	c
+GridMap	include/hector_slam_lib/map/GridMap.h	/^typedef OccGridMapBase<LogOddsCell, GridMapLogOddsFunctions> GridMap;$/;"	t	namespace:hectorslam
+GridMapBase	include/hector_slam_lib/map/GridMapBase.h	/^  GridMapBase(const GridMapBase& other)$/;"	f	class:hectorslam::GridMapBase
+GridMapBase	include/hector_slam_lib/map/GridMapBase.h	/^  GridMapBase(float mapResolution, const Eigen::Vector2i& size, const Eigen::Vector2f& offset)$/;"	f	class:hectorslam::GridMapBase
+GridMapBase	include/hector_slam_lib/map/GridMapBase.h	/^class GridMapBase$/;"	c	namespace:hectorslam
+GridMapCacheArray	include/hector_slam_lib/map/GridMapCacheArray.h	/^  GridMapCacheArray()$/;"	f	class:GridMapCacheArray
+GridMapCacheArray	include/hector_slam_lib/map/GridMapCacheArray.h	/^class GridMapCacheArray$/;"	c
+GridMapCacheMethod	include/hector_slam_lib/map/OccGridMapUtilConfig.h	/^typedef GridMapCacheArray GridMapCacheMethod;$/;"	t
+GridMapCacheMethod	include/hector_slam_lib/map/OccGridMapUtilConfig.h	/^typedef GridMapCacheHash GridMapCacheMethod;$/;"	t
+GridMapLogOddsFunctions	include/hector_slam_lib/map/GridMapLogOdds.h	/^  GridMapLogOddsFunctions()$/;"	f	class:GridMapLogOddsFunctions
+GridMapLogOddsFunctions	include/hector_slam_lib/map/GridMapLogOdds.h	/^class GridMapLogOddsFunctions$/;"	c
+GridMapReflectanceFunctions	include/hector_slam_lib/map/GridMapReflectanceCount.h	/^  GridMapReflectanceFunctions()$/;"	f	class:GridMapReflectanceFunctions
+GridMapReflectanceFunctions	include/hector_slam_lib/map/GridMapReflectanceCount.h	/^class GridMapReflectanceFunctions$/;"	c
+GridMapSimpleCountFunctions	include/hector_slam_lib/map/GridMapSimpleCount.h	/^  GridMapSimpleCountFunctions()$/;"	f	class:GridMapSimpleCountFunctions
+GridMapSimpleCountFunctions	include/hector_slam_lib/map/GridMapSimpleCount.h	/^class GridMapSimpleCountFunctions$/;"	c
+H	include/hector_slam_lib/matcher/ScanMatcher.h	/^  Eigen::Matrix3f H;$/;"	m	class:hectorslam::ScanMatcher
+HECTOR_DEBUG_INFO_PROVIDER_H__	src/HectorDebugInfoProvider.h	30;"	d
+HECTOR_DRAWINGS_H__	src/HectorDrawings.h	30;"	d
+HECTOR_MAPPING_ROS_H__	src/HectorMappingRos.h	30;"	d
+HectorDebugInfoInterface	include/hector_slam_lib/util/HectorDebugInfoInterface.h	/^class HectorDebugInfoInterface{$/;"	c
+HectorDebugInfoProvider	src/HectorDebugInfoProvider.h	/^  HectorDebugInfoProvider()$/;"	f	class:HectorDebugInfoProvider
+HectorDebugInfoProvider	src/HectorDebugInfoProvider.h	/^class HectorDebugInfoProvider : public HectorDebugInfoInterface$/;"	c
+HectorDrawings	src/HectorDrawings.h	/^  HectorDrawings()$/;"	f	class:HectorDrawings
+HectorDrawings	src/HectorDrawings.h	/^class HectorDrawings : public DrawInterface$/;"	c
+HectorMapMutex	src/HectorMapMutex.h	/^class HectorMapMutex : public MapLockerInterface$/;"	c
+HectorMappingRos	src/HectorMappingRos.cpp	/^HectorMappingRos::HectorMappingRos()$/;"	f	class:HectorMappingRos
+HectorMappingRos	src/HectorMappingRos.h	/^class HectorMappingRos$/;"	c
+HectorSlamProcessor	include/hector_slam_lib/slam_main/HectorSlamProcessor.h	/^  HectorSlamProcessor(float mapResolution, int mapSizeX, int mapSizeY , const Eigen::Vector2f& startCoords, int multi_res_size, DrawInterface* drawInterfaceIn = 0, HectorDebugInfoInterface* debugInterfaceIn = 0)$/;"	f	class:hectorslam::HectorSlamProcessor
+HectorSlamProcessor	include/hector_slam_lib/slam_main/HectorSlamProcessor.h	/^class HectorSlamProcessor$/;"	c	namespace:hectorslam
+LogOddsCell	include/hector_slam_lib/map/GridMapLogOdds.h	/^class LogOddsCell$/;"	c
+MapDimensionProperties	include/hector_slam_lib/map/MapDimensionProperties.h	/^  MapDimensionProperties()$/;"	f	class:MapDimensionProperties
+MapDimensionProperties	include/hector_slam_lib/map/MapDimensionProperties.h	/^  MapDimensionProperties(const Eigen::Vector2f& topLeftOffsetIn, const Eigen::Vector2i& mapDimensionsIn, float cellLengthIn)$/;"	f	class:MapDimensionProperties
+MapDimensionProperties	include/hector_slam_lib/map/MapDimensionProperties.h	/^class MapDimensionProperties$/;"	c
+MapLockerInterface	include/hector_slam_lib/util/MapLockerInterface.h	/^class MapLockerInterface$/;"	c
+MapProcContainer	include/hector_slam_lib/slam_main/MapProcContainer.h	/^  MapProcContainer(GridMap* gridMapIn, OccGridMapUtilConfig<GridMap>* gridMapUtilIn, ScanMatcher<OccGridMapUtilConfig<GridMap> >* scanMatcherIn)$/;"	f	class:hectorslam::MapProcContainer
+MapProcContainer	include/hector_slam_lib/slam_main/MapProcContainer.h	/^class MapProcContainer$/;"	c	namespace:hectorslam
+MapPublisherContainer	src/HectorMappingRos.h	/^class MapPublisherContainer$/;"	c
+MapRepMultiMap	include/hector_slam_lib/slam_main/MapRepMultiMap.h	/^  MapRepMultiMap(float mapResolution, int mapSizeX, int mapSizeY, unsigned int numDepth, const Eigen::Vector2f& startCoords, DrawInterface* drawInterfaceIn, HectorDebugInfoInterface* debugInterfaceIn)$/;"	f	class:hectorslam::MapRepMultiMap
+MapRepMultiMap	include/hector_slam_lib/slam_main/MapRepMultiMap.h	/^class MapRepMultiMap : public MapRepresentationInterface$/;"	c	namespace:hectorslam
+MapRepSingleMap	include/hector_slam_lib/slam_main/MapRepSingleMap.h	/^  MapRepSingleMap(float mapResolution, DrawInterface* drawInterfaceIn, HectorDebugInfoInterface* debugInterfaceIn)$/;"	f	class:hectorslam::MapRepSingleMap
+MapRepSingleMap	include/hector_slam_lib/slam_main/MapRepSingleMap.h	/^class MapRepSingleMap : public MapRepresentationInterface$/;"	c	namespace:hectorslam
+MapRepresentationInterface	include/hector_slam_lib/slam_main/MapRepresentationInterface.h	/^class MapRepresentationInterface$/;"	c	namespace:hectorslam
+OccGridMapBase	include/hector_slam_lib/map/OccGridMapBase.h	/^  OccGridMapBase(float mapResolution, const Eigen::Vector2i& size, const Eigen::Vector2f& offset)$/;"	f	class:hectorslam::OccGridMapBase
+OccGridMapBase	include/hector_slam_lib/map/OccGridMapBase.h	/^class OccGridMapBase$/;"	c	namespace:hectorslam
+OccGridMapUtil	include/hector_slam_lib/map/OccGridMapUtil.h	/^  OccGridMapUtil(const ConcreteOccGridMap* gridMap)$/;"	f	class:hectorslam::OccGridMapUtil
+OccGridMapUtil	include/hector_slam_lib/map/OccGridMapUtil.h	/^class OccGridMapUtil$/;"	c	namespace:hectorslam
+OccGridMapUtilConfig	include/hector_slam_lib/map/OccGridMapUtilConfig.h	/^  OccGridMapUtilConfig(ConcreteOccGridMap* gridMap = 0)$/;"	f	class:hectorslam::OccGridMapUtilConfig
+OccGridMapUtilConfig	include/hector_slam_lib/map/OccGridMapUtilConfig.h	/^class OccGridMapUtilConfig$/;"	c	namespace:hectorslam
+POSE_INFO_CONTAINER_H__	src/PoseInfoContainer.h	30;"	d
+PoseInfoContainer	src/PoseInfoContainer.h	/^class PoseInfoContainer{$/;"	c
+ReflectanceCell	include/hector_slam_lib/map/GridMapReflectanceCount.h	/^class ReflectanceCell$/;"	c
+ScanMatcher	include/hector_slam_lib/matcher/ScanMatcher.h	/^  ScanMatcher(DrawInterface* drawInterfaceIn = 0, HectorDebugInfoInterface* debugInterfaceIn = 0)$/;"	f	class:hectorslam::ScanMatcher
+ScanMatcher	include/hector_slam_lib/matcher/ScanMatcher.h	/^class ScanMatcher$/;"	c	namespace:hectorslam
+SimpleCountCell	include/hector_slam_lib/map/GridMapSimpleCount.h	/^class SimpleCountCell$/;"	c
+__DataPointContainer_h_	include/hector_slam_lib/scan/DataPointContainer.h	30;"	d
+__GridMapBase_h_	include/hector_slam_lib/map/GridMapBase.h	30;"	d
+__GridMapCacheArray_h_	include/hector_slam_lib/map/GridMapCacheArray.h	30;"	d
+__GridMapLogOdds_h_	include/hector_slam_lib/map/GridMapLogOdds.h	30;"	d
+__GridMapReflectanceCount_h_	include/hector_slam_lib/map/GridMapReflectanceCount.h	30;"	d
+__GridMapSimpleCount_h_	include/hector_slam_lib/map/GridMapSimpleCount.h	30;"	d
+__GridMap_h_	include/hector_slam_lib/map/GridMap.h	30;"	d
+__MapDimensionProperties_h_	include/hector_slam_lib/map/MapDimensionProperties.h	30;"	d
+__OccGridMapBase_h_	include/hector_slam_lib/map/OccGridMapBase.h	30;"	d
+__OccGridMapUtilConfig_h_	include/hector_slam_lib/map/OccGridMapUtilConfig.h	30;"	d
+__OccGridMapUtil_h_	include/hector_slam_lib/map/OccGridMapUtil.h	30;"	d
+_hectormapproccontainer_h__	include/hector_slam_lib/slam_main/MapProcContainer.h	30;"	d
+_hectormaprepmultimap_h__	include/hector_slam_lib/slam_main/MapRepMultiMap.h	30;"	d
+_hectormaprepresentationinterface_h__	include/hector_slam_lib/slam_main/MapRepresentationInterface.h	30;"	d
+_hectormaprepsinglemap_h__	include/hector_slam_lib/slam_main/MapRepSingleMap.h	30;"	d
+_hectorslamprocessor_h__	include/hector_slam_lib/slam_main/HectorSlamProcessor.h	30;"	d
+_scanmatcher_h__	include/hector_slam_lib/matcher/ScanMatcher.h	30;"	d
+add	include/hector_slam_lib/scan/DataPointContainer.h	/^  void add(const DataPointType& dataPoint)$/;"	f	class:hectorslam::DataPointContainer
+addHessianMatrix	src/HectorDebugInfoProvider.h	/^  virtual void addHessianMatrix(const Eigen::Matrix3f& hessian)$/;"	f	class:HectorDebugInfoProvider
+addMapMutex	include/hector_slam_lib/slam_main/HectorSlamProcessor.h	/^  void addMapMutex(int i, MapLockerInterface* mapMutex) { mapRep->addMapMutex(i, mapMutex); };$/;"	f	class:hectorslam::HectorSlamProcessor
+addMapMutex	include/hector_slam_lib/slam_main/MapProcContainer.h	/^  void addMapMutex(MapLockerInterface* mapMutexIn)$/;"	f	class:hectorslam::MapProcContainer
+addMapMutex	include/hector_slam_lib/slam_main/MapRepMultiMap.h	/^  virtual void addMapMutex(int i, MapLockerInterface* mapMutex)$/;"	f	class:hectorslam::MapRepMultiMap
+addPoseLikelihood	src/HectorDebugInfoProvider.h	/^  virtual void addPoseLikelihood(float lh)$/;"	f	class:HectorDebugInfoProvider
+allocateArray	include/hector_slam_lib/map/GridMapBase.h	/^  void allocateArray(const Eigen::Vector2i& newMapDims)$/;"	f	class:hectorslam::GridMapBase
+arrayDimensions	include/hector_slam_lib/map/GridMapCacheArray.h	/^  Eigen::Vector2i arrayDimensions; \/\/\/< The size of the array$/;"	m	class:GridMapCacheArray
+bresenham2D	include/hector_slam_lib/map/OccGridMapBase.h	/^  inline void bresenham2D( unsigned int abs_da, unsigned int abs_db, int error_b, int offset_a, int offset_b, unsigned int offset){$/;"	f	class:hectorslam::OccGridMapBase
+bresenhamCellFree	include/hector_slam_lib/map/OccGridMapBase.h	/^  inline void bresenhamCellFree(unsigned int offset)$/;"	f	class:hectorslam::OccGridMapBase
+bresenhamCellOcc	include/hector_slam_lib/map/OccGridMapBase.h	/^  inline void bresenhamCellOcc(unsigned int offset)$/;"	f	class:hectorslam::OccGridMapBase
+cacheArray	include/hector_slam_lib/map/GridMapCacheArray.h	/^  CachedMapElement* cacheArray;    \/\/\/< Array used for caching data.$/;"	m	class:GridMapCacheArray
+cacheData	include/hector_slam_lib/map/GridMapCacheArray.h	/^  void cacheData(int index, float val)$/;"	f	class:GridMapCacheArray
+cacheMethod	include/hector_slam_lib/map/OccGridMapUtil.h	/^  ConcreteCacheMethod cacheMethod;$/;"	m	class:hectorslam::OccGridMapUtil
+cellLength	include/hector_slam_lib/map/MapDimensionProperties.h	/^  float cellLength;$/;"	m	class:MapDimensionProperties
+cleanup	include/hector_slam_lib/slam_main/MapProcContainer.h	/^  void cleanup()$/;"	f	class:hectorslam::MapProcContainer
+clear	include/hector_slam_lib/map/GridMapBase.h	/^  void clear()$/;"	f	class:hectorslam::GridMapBase
+clear	include/hector_slam_lib/scan/DataPointContainer.h	/^  void clear()$/;"	f	class:hectorslam::DataPointContainer
+concreteGridFunctions	include/hector_slam_lib/map/OccGridMapBase.h	/^  ConcreteGridFunctions concreteGridFunctions;$/;"	m	class:hectorslam::OccGridMapBase
+concreteGridMap	include/hector_slam_lib/map/OccGridMapUtil.h	/^  const ConcreteOccGridMap* concreteGridMap;$/;"	m	class:hectorslam::OccGridMapUtil
+containsCachedData	include/hector_slam_lib/map/GridMapCacheArray.h	/^  bool containsCachedData(int index, float& val)$/;"	f	class:GridMapCacheArray
+covPose_	src/PoseInfoContainer.h	/^  geometry_msgs::PoseWithCovarianceStamped covPose_;$/;"	m	class:PoseInfoContainer
+createCacheArray	include/hector_slam_lib/map/GridMapCacheArray.h	/^  void createCacheArray(const Eigen::Vector2i& newDimensions)$/;"	f	class:GridMapCacheArray
+currCacheIndex	include/hector_slam_lib/map/GridMapCacheArray.h	/^  int currCacheIndex;              \/\/\/< The cache iteration index value$/;"	m	class:GridMapCacheArray
+currMarkFreeIndex	include/hector_slam_lib/map/OccGridMapBase.h	/^  int currMarkFreeIndex;$/;"	m	class:hectorslam::OccGridMapBase
+currMarkOccIndex	include/hector_slam_lib/map/OccGridMapBase.h	/^  int currMarkOccIndex;$/;"	m	class:hectorslam::OccGridMapBase
+currUpdateIndex	include/hector_slam_lib/map/OccGridMapBase.h	/^  int currUpdateIndex;$/;"	m	class:hectorslam::OccGridMapBase
+dTr	include/hector_slam_lib/matcher/ScanMatcher.h	/^  Eigen::Vector3f dTr;$/;"	m	class:hectorslam::ScanMatcher
+dataContainers	include/hector_slam_lib/slam_main/MapRepMultiMap.h	/^  std::vector<DataContainer> dataContainers;$/;"	m	class:hectorslam::MapRepMultiMap
+dataPoints	include/hector_slam_lib/scan/DataPointContainer.h	/^  std::vector<DataPointType> dataPoints;$/;"	m	class:hectorslam::DataPointContainer
+debugInfo	src/HectorDebugInfoProvider.h	/^  hector_mapping::HectorDebugInfo debugInfo;$/;"	m	class:HectorDebugInfoProvider
+debugInfoProvider	src/HectorMappingRos.h	/^  HectorDebugInfoProvider* debugInfoProvider;$/;"	m	class:HectorMappingRos
+debugInfoPublisher_	src/HectorDebugInfoProvider.h	/^  ros::Publisher debugInfoPublisher_;$/;"	m	class:HectorDebugInfoProvider
+debugInterface	include/hector_slam_lib/matcher/ScanMatcher.h	/^  HectorDebugInfoInterface* debugInterface;$/;"	m	class:hectorslam::ScanMatcher
+debugInterface	include/hector_slam_lib/slam_main/HectorSlamProcessor.h	/^  HectorDebugInfoInterface* debugInterface;$/;"	m	class:hectorslam::HectorSlamProcessor
+deleteArray	include/hector_slam_lib/map/GridMapBase.h	/^  void deleteArray()$/;"	f	class:hectorslam::GridMapBase
+deleteCacheArray	include/hector_slam_lib/map/GridMapCacheArray.h	/^  void deleteCacheArray()$/;"	f	class:GridMapCacheArray
+drawArrow	src/HectorDrawings.h	/^  virtual void drawArrow(const Eigen::Vector3f& poseWorld)$/;"	f	class:HectorDrawings
+drawCovariance	src/HectorDrawings.h	/^  virtual void drawCovariance(const Eigen::Vector2f& mean, const Eigen::Matrix2f& covMatrix)$/;"	f	class:HectorDrawings
+drawInterface	include/hector_slam_lib/matcher/ScanMatcher.h	/^  DrawInterface* drawInterface;$/;"	m	class:hectorslam::ScanMatcher
+drawInterface	include/hector_slam_lib/slam_main/HectorSlamProcessor.h	/^  DrawInterface* drawInterface;$/;"	m	class:hectorslam::HectorSlamProcessor
+drawPoint	src/HectorDrawings.h	/^  virtual void drawPoint(const Eigen::Vector2f& pointWorldFrame)$/;"	f	class:HectorDrawings
+drawScan	include/hector_slam_lib/matcher/ScanMatcher.h	/^  void drawScan(const Eigen::Vector3f& pose, const ConcreteOccGridMapUtil& gridMapUtil, const DataContainer& dataContainer)$/;"	f	class:hectorslam::ScanMatcher
+drawinterface_h__	include/hector_slam_lib/util/DrawInterface.h	30;"	d
+dynamicMapServiceServer_	src/HectorMappingRos.h	/^  ros::ServiceServer dynamicMapServiceServer_;$/;"	m	class:MapPublisherContainer
+estimateTransformationLogLh	include/hector_slam_lib/matcher/ScanMatcher.h	/^  bool estimateTransformationLogLh(Eigen::Vector3f& estimate, ConcreteOccGridMapUtil& gridMapUtil, const DataContainer& dataPoints)$/;"	f	class:hectorslam::ScanMatcher
+getCell	include/hector_slam_lib/map/GridMapBase.h	/^  ConcreteCellType& getCell(int index)$/;"	f	class:hectorslam::GridMapBase
+getCell	include/hector_slam_lib/map/GridMapBase.h	/^  ConcreteCellType& getCell(int x, int y)$/;"	f	class:hectorslam::GridMapBase
+getCell	include/hector_slam_lib/map/GridMapBase.h	/^  const ConcreteCellType& getCell(int index) const$/;"	f	class:hectorslam::GridMapBase
+getCell	include/hector_slam_lib/map/GridMapBase.h	/^  const ConcreteCellType& getCell(int x, int y) const$/;"	f	class:hectorslam::GridMapBase
+getCellLength	include/hector_slam_lib/map/GridMapBase.h	/^  float getCellLength() const$/;"	f	class:hectorslam::GridMapBase
+getCellLength	include/hector_slam_lib/map/MapDimensionProperties.h	/^  float getCellLength() const { return cellLength; };$/;"	f	class:MapDimensionProperties
+getCompleteHessianDerivs	include/hector_slam_lib/map/OccGridMapUtil.h	/^  void getCompleteHessianDerivs(const Eigen::Vector3f& pose, const DataContainer& dataPoints, Eigen::Matrix3f& H, Eigen::Vector3f& dTr)$/;"	f	class:hectorslam::OccGridMapUtil
+getCovMatrixWorldCoords	include/hector_slam_lib/map/OccGridMapUtil.h	/^  Eigen::Matrix3f getCovMatrixWorldCoords(const Eigen::Matrix3f& covMatMap)$/;"	f	class:hectorslam::OccGridMapUtil
+getCovarianceForPose	include/hector_slam_lib/map/OccGridMapUtil.h	/^  Eigen::Matrix3f getCovarianceForPose(const Eigen::Vector3f& mapPose, const DataContainer& dataPoints)$/;"	f	class:hectorslam::OccGridMapUtil
+getGridMap	include/hector_slam_lib/slam_main/HectorSlamProcessor.h	/^  const GridMap& getGridMap(int mapLevel = 0) const { return mapRep->getGridMap(mapLevel); };$/;"	f	class:hectorslam::HectorSlamProcessor
+getGridMap	include/hector_slam_lib/slam_main/MapProcContainer.h	/^  GridMap& getGridMap() { return *gridMap; };$/;"	f	class:hectorslam::MapProcContainer
+getGridMap	include/hector_slam_lib/slam_main/MapProcContainer.h	/^  const GridMap& getGridMap() const { return *gridMap; };$/;"	f	class:hectorslam::MapProcContainer
+getGridMap	include/hector_slam_lib/slam_main/MapRepMultiMap.h	/^  virtual const GridMap& getGridMap(int mapLevel) const { return mapContainer[mapLevel].getGridMap(); };$/;"	f	class:hectorslam::MapRepMultiMap
+getGridMap	include/hector_slam_lib/slam_main/MapRepSingleMap.h	/^  virtual const GridMap& getGridMap(int mapLevel) const { return *gridMap; };$/;"	f	class:hectorslam::MapRepSingleMap
+getGridProbability	include/hector_slam_lib/map/GridMapLogOdds.h	/^  float getGridProbability(const LogOddsCell& cell) const$/;"	f	class:GridMapLogOddsFunctions
+getGridProbability	include/hector_slam_lib/map/GridMapReflectanceCount.h	/^  float getGridProbability(const ReflectanceCell& cell) const$/;"	f	class:GridMapReflectanceFunctions
+getGridProbability	include/hector_slam_lib/map/GridMapSimpleCount.h	/^  float getGridProbability(const SimpleCountCell& cell) const$/;"	f	class:GridMapSimpleCountFunctions
+getGridProbabilityMap	include/hector_slam_lib/map/OccGridMapBase.h	/^  float getGridProbabilityMap(int index) const$/;"	f	class:hectorslam::OccGridMapBase
+getLastScanMatchCovariance	include/hector_slam_lib/slam_main/HectorSlamProcessor.h	/^  const Eigen::Matrix3f& getLastScanMatchCovariance() const { return lastScanMatchCov; };$/;"	f	class:hectorslam::HectorSlamProcessor
+getLastScanMatchPose	include/hector_slam_lib/slam_main/HectorSlamProcessor.h	/^  const Eigen::Vector3f& getLastScanMatchPose() const { return lastScanMatchPose; };$/;"	f	class:hectorslam::HectorSlamProcessor
+getLikelihoodForResidual	include/hector_slam_lib/map/OccGridMapUtil.h	/^  float getLikelihoodForResidual(float residual, int numDataPoints)$/;"	f	class:hectorslam::OccGridMapUtil
+getLikelihoodForState	include/hector_slam_lib/map/OccGridMapUtil.h	/^  float getLikelihoodForState(const Eigen::Vector3f& state, const DataContainer& dataPoints)$/;"	f	class:hectorslam::OccGridMapUtil
+getMapCoords	include/hector_slam_lib/map/GridMapBase.h	/^  inline Eigen::Vector2f getMapCoords(const Eigen::Vector2f& worldCoords) const$/;"	f	class:hectorslam::GridMapBase
+getMapCoordsPose	include/hector_slam_lib/map/GridMapBase.h	/^  inline Eigen::Vector3f getMapCoordsPose(const Eigen::Vector3f& worldPose) const$/;"	f	class:hectorslam::GridMapBase
+getMapCoordsPose	include/hector_slam_lib/map/OccGridMapUtil.h	/^  inline Eigen::Vector3f getMapCoordsPose(const Eigen::Vector3f& worldPose) const { return concreteGridMap->getMapCoordsPose(worldPose); };$/;"	f	class:hectorslam::OccGridMapUtil
+getMapDimProperties	include/hector_slam_lib/map/GridMapBase.h	/^  const MapDimensionProperties& getMapDimProperties() const { return mapDimensionProperties; };$/;"	f	class:hectorslam::GridMapBase
+getMapDimensions	include/hector_slam_lib/map/GridMapBase.h	/^  const Eigen::Vector2i& getMapDimensions() const { return mapDimensionProperties.getMapDimensions(); };$/;"	f	class:hectorslam::GridMapBase
+getMapDimensions	include/hector_slam_lib/map/MapDimensionProperties.h	/^  const Eigen::Vector2i& getMapDimensions() const { return mapDimensions; };$/;"	f	class:MapDimensionProperties
+getMapExtends	include/hector_slam_lib/map/GridMapBase.h	/^  bool getMapExtends(int& xMax, int& yMax, int& xMin, int& yMin) const$/;"	f	class:hectorslam::GridMapBase
+getMapLevels	include/hector_slam_lib/slam_main/HectorSlamProcessor.h	/^  int getMapLevels() const { return mapRep->getMapLevels(); };$/;"	f	class:hectorslam::HectorSlamProcessor
+getMapLevels	include/hector_slam_lib/slam_main/MapRepMultiMap.h	/^  virtual int getMapLevels() const { return mapContainer.size(); };$/;"	f	class:hectorslam::MapRepMultiMap
+getMapLevels	include/hector_slam_lib/slam_main/MapRepSingleMap.h	/^  virtual int getMapLevels() const { return 1; };$/;"	f	class:hectorslam::MapRepSingleMap
+getMapMutex	include/hector_slam_lib/slam_main/HectorSlamProcessor.h	/^  MapLockerInterface* getMapMutex(int i) { return mapRep->getMapMutex(i); };$/;"	f	class:hectorslam::HectorSlamProcessor
+getMapMutex	include/hector_slam_lib/slam_main/MapProcContainer.h	/^  MapLockerInterface* getMapMutex()$/;"	f	class:hectorslam::MapProcContainer
+getMapMutex	include/hector_slam_lib/slam_main/MapRepMultiMap.h	/^  MapLockerInterface* getMapMutex(int i)$/;"	f	class:hectorslam::MapRepMultiMap
+getMapTworld	include/hector_slam_lib/map/GridMapBase.h	/^  const Eigen::Affine2f& getMapTworld() const$/;"	f	class:hectorslam::GridMapBase
+getObstacleThreshold	include/hector_slam_lib/map/OccGridMapBase.h	/^  float getObstacleThreshold() const$/;"	f	class:hectorslam::OccGridMapBase
+getOrigo	include/hector_slam_lib/scan/DataPointContainer.h	/^  DataPointType getOrigo() const$/;"	f	class:hectorslam::DataPointContainer
+getPoseStamped	src/PoseInfoContainer.h	/^  const geometry_msgs::PoseStamped& getPoseStamped() { return stampedPose_; };$/;"	f	class:PoseInfoContainer
+getPoseWithCovarianceStamped	src/PoseInfoContainer.h	/^  const geometry_msgs::PoseWithCovarianceStamped& getPoseWithCovarianceStamped() { return covPose_; };$/;"	f	class:PoseInfoContainer
+getResidualForState	include/hector_slam_lib/map/OccGridMapUtil.h	/^  float getResidualForState(const Eigen::Vector3f& state, const DataContainer& dataPoints)$/;"	f	class:hectorslam::OccGridMapUtil
+getSamplePoints	include/hector_slam_lib/map/OccGridMapUtil.h	/^  const std::vector<Eigen::Vector3f>& getSamplePoints() const$/;"	f	class:hectorslam::OccGridMapUtil
+getScaleToMap	include/hector_slam_lib/map/GridMapBase.h	/^  float getScaleToMap() const$/;"	f	class:hectorslam::GridMapBase
+getScaleToMap	include/hector_slam_lib/slam_main/HectorSlamProcessor.h	/^  float getScaleToMap() const { return mapRep->getScaleToMap(); };$/;"	f	class:hectorslam::HectorSlamProcessor
+getScaleToMap	include/hector_slam_lib/slam_main/MapProcContainer.h	/^  float getScaleToMap() const { return gridMap->getScaleToMap(); };$/;"	f	class:hectorslam::MapProcContainer
+getScaleToMap	include/hector_slam_lib/slam_main/MapRepMultiMap.h	/^  virtual float getScaleToMap() const { return mapContainer[0].getScaleToMap(); };$/;"	f	class:hectorslam::MapRepMultiMap
+getScaleToMap	include/hector_slam_lib/slam_main/MapRepSingleMap.h	/^  virtual float getScaleToMap() const { return gridMap->getScaleToMap(); };$/;"	f	class:hectorslam::MapRepSingleMap
+getSize	include/hector_slam_lib/scan/DataPointContainer.h	/^  int getSize() const$/;"	f	class:hectorslam::DataPointContainer
+getSizeX	include/hector_slam_lib/map/GridMapBase.h	/^  int getSizeX() const { return mapDimensionProperties.getSizeX(); };$/;"	f	class:hectorslam::GridMapBase
+getSizeX	include/hector_slam_lib/map/MapDimensionProperties.h	/^  int getSizeX() const { return mapDimensions[0]; };$/;"	f	class:MapDimensionProperties
+getSizeY	include/hector_slam_lib/map/GridMapBase.h	/^  int getSizeY() const { return mapDimensionProperties.getSizeY(); };$/;"	f	class:hectorslam::GridMapBase
+getSizeY	include/hector_slam_lib/map/MapDimensionProperties.h	/^  int getSizeY() const { return mapDimensions[1]; };$/;"	f	class:MapDimensionProperties
+getTfTransform	src/PoseInfoContainer.h	/^  const tf::Transform& getTfTransform() { return poseTransform_; };$/;"	f	class:PoseInfoContainer
+getTopLeftOffset	include/hector_slam_lib/map/MapDimensionProperties.h	/^  const Eigen::Vector2f& getTopLeftOffset() const { return topLeftOffset; };$/;"	f	class:MapDimensionProperties
+getTransformForState	include/hector_slam_lib/map/OccGridMapUtil.h	/^  Eigen::Affine2f getTransformForState(const Eigen::Vector3f& transVector) const$/;"	f	class:hectorslam::OccGridMapUtil
+getTranslationForState	include/hector_slam_lib/map/OccGridMapUtil.h	/^  Eigen::Translation2f getTranslationForState(const Eigen::Vector3f& transVector) const$/;"	f	class:hectorslam::OccGridMapUtil
+getUnfilteredGridPoint	include/hector_slam_lib/map/OccGridMapUtil.h	/^  float getUnfilteredGridPoint(Eigen::Vector2i& gridCoords) const$/;"	f	class:hectorslam::OccGridMapUtil
+getUnfilteredGridPoint	include/hector_slam_lib/map/OccGridMapUtil.h	/^  float getUnfilteredGridPoint(int index) const$/;"	f	class:hectorslam::OccGridMapUtil
+getUpdateIndex	include/hector_slam_lib/map/GridMapBase.h	/^  int getUpdateIndex() const { return lastUpdateIndex; };$/;"	f	class:hectorslam::GridMapBase
+getValue	include/hector_slam_lib/map/GridMapLogOdds.h	/^  float getValue() const$/;"	f	class:LogOddsCell
+getValue	include/hector_slam_lib/map/GridMapReflectanceCount.h	/^  float getValue() const$/;"	f	class:ReflectanceCell
+getValue	include/hector_slam_lib/map/GridMapSimpleCount.h	/^  float getValue() const$/;"	f	class:SimpleCountCell
+getVecEntry	include/hector_slam_lib/scan/DataPointContainer.h	/^  const DataPointType& getVecEntry(int index) const$/;"	f	class:hectorslam::DataPointContainer
+getWorldCoords	include/hector_slam_lib/map/GridMapBase.h	/^  inline Eigen::Vector2f getWorldCoords(const Eigen::Vector2f& mapCoords) const$/;"	f	class:hectorslam::GridMapBase
+getWorldCoordsPoint	include/hector_slam_lib/map/OccGridMapUtil.h	/^  inline Eigen::Vector2f getWorldCoordsPoint(const Eigen::Vector2f& mapPoint) const { return concreteGridMap->getWorldCoords(mapPoint); };$/;"	f	class:hectorslam::OccGridMapUtil
+getWorldCoordsPose	include/hector_slam_lib/map/GridMapBase.h	/^  inline Eigen::Vector3f getWorldCoordsPose(const Eigen::Vector3f& mapPose) const$/;"	f	class:hectorslam::GridMapBase
+getWorldCoordsPose	include/hector_slam_lib/map/OccGridMapUtil.h	/^  inline Eigen::Vector3f getWorldCoordsPose(const Eigen::Vector3f& mapPose) const { return concreteGridMap->getWorldCoordsPose(mapPose); };$/;"	f	class:hectorslam::OccGridMapUtil
+getWorldTmap	include/hector_slam_lib/map/GridMapBase.h	/^  const Eigen::Affine2f& getWorldTmap() const$/;"	f	class:hectorslam::GridMapBase
+getWorldTmap3D	include/hector_slam_lib/map/GridMapBase.h	/^  const Eigen::Affine3f& getWorldTmap3D() const$/;"	f	class:hectorslam::GridMapBase
+gridMap	include/hector_slam_lib/slam_main/MapProcContainer.h	/^  GridMap* gridMap;$/;"	m	class:hectorslam::MapProcContainer
+gridMap	include/hector_slam_lib/slam_main/MapRepSingleMap.h	/^  GridMap* gridMap;$/;"	m	class:hectorslam::MapRepSingleMap
+gridMapUtil	include/hector_slam_lib/slam_main/MapProcContainer.h	/^  OccGridMapUtilConfig<GridMap>* gridMapUtil;$/;"	m	class:hectorslam::MapProcContainer
+gridMapUtil	include/hector_slam_lib/slam_main/MapRepSingleMap.h	/^  OccGridMapUtilConfig<GridMap>* gridMapUtil;$/;"	m	class:hectorslam::MapRepSingleMap
+hasEqualDimensionProperties	include/hector_slam_lib/map/MapDimensionProperties.h	/^  bool hasEqualDimensionProperties(const MapDimensionProperties& other) const$/;"	f	class:MapDimensionProperties
+hasEqualTransformationProperties	include/hector_slam_lib/map/MapDimensionProperties.h	/^  bool hasEqualTransformationProperties(const MapDimensionProperties& other) const$/;"	f	class:MapDimensionProperties
+hasGridValue	include/hector_slam_lib/map/GridMapBase.h	/^  bool hasGridValue(int x, int y) const$/;"	f	class:hectorslam::GridMapBase
+hectorDrawings	src/HectorMappingRos.h	/^  HectorDrawings* hectorDrawings;$/;"	m	class:HectorMappingRos
+hectordebuginfointerface_h__	include/hector_slam_lib/util/HectorDebugInfoInterface.h	30;"	d
+hectormapmutex_h__	src/HectorMapMutex.h	2;"	d
+hectorslam	include/hector_slam_lib/map/GridMap.h	/^namespace hectorslam {$/;"	n
+hectorslam	include/hector_slam_lib/map/GridMapBase.h	/^namespace hectorslam {$/;"	n
+hectorslam	include/hector_slam_lib/map/OccGridMapBase.h	/^namespace hectorslam {$/;"	n
+hectorslam	include/hector_slam_lib/map/OccGridMapUtil.h	/^namespace hectorslam {$/;"	n
+hectorslam	include/hector_slam_lib/map/OccGridMapUtilConfig.h	/^namespace hectorslam {$/;"	n
+hectorslam	include/hector_slam_lib/matcher/ScanMatcher.h	/^namespace hectorslam{$/;"	n
+hectorslam	include/hector_slam_lib/scan/DataPointContainer.h	/^namespace hectorslam {$/;"	n
+hectorslam	include/hector_slam_lib/slam_main/HectorSlamProcessor.h	/^namespace hectorslam{$/;"	n
+hectorslam	include/hector_slam_lib/slam_main/MapProcContainer.h	/^namespace hectorslam{$/;"	n
+hectorslam	include/hector_slam_lib/slam_main/MapRepMultiMap.h	/^namespace hectorslam{$/;"	n
+hectorslam	include/hector_slam_lib/slam_main/MapRepSingleMap.h	/^namespace hectorslam{$/;"	n
+hectorslam	include/hector_slam_lib/slam_main/MapRepresentationInterface.h	/^namespace hectorslam{$/;"	n
+idCounter	src/HectorDrawings.h	/^  int idCounter;$/;"	m	class:HectorDrawings
+index	include/hector_slam_lib/map/GridMapCacheArray.h	/^  int index;$/;"	m	class:CachedMapElement
+initialPoseCallback	src/HectorMappingRos.cpp	/^void HectorMappingRos::initialPoseCallback(const geometry_msgs::PoseWithCovarianceStampedConstPtr& msg)$/;"	f	class:HectorMappingRos
+initial_pose_	src/HectorMappingRos.h	/^  Eigen::Vector3f initial_pose_;$/;"	m	class:HectorMappingRos
+initial_pose_filter_	src/HectorMappingRos.h	/^  tf::MessageFilter<geometry_msgs::PoseWithCovarianceStamped>* initial_pose_filter_;$/;"	m	class:HectorMappingRos
+initial_pose_set_	src/HectorMappingRos.h	/^  bool initial_pose_set_;$/;"	m	class:HectorMappingRos
+initial_pose_sub_	src/HectorMappingRos.h	/^  message_filters::Subscriber<geometry_msgs::PoseWithCovarianceStamped>* initial_pose_sub_;$/;"	m	class:HectorMappingRos
+intensities	include/hector_slam_lib/map/OccGridMapUtil.h	/^  Eigen::Vector4f intensities;$/;"	m	class:hectorslam::OccGridMapUtil
+interpMapValue	include/hector_slam_lib/map/OccGridMapUtil.h	/^  float interpMapValue(const Eigen::Vector2f& coords)$/;"	f	class:hectorslam::OccGridMapUtil
+interpMapValueWithDerivatives	include/hector_slam_lib/map/OccGridMapUtil.h	/^  Eigen::Vector3f interpMapValueWithDerivatives(const Eigen::Vector2f& coords)$/;"	f	class:hectorslam::OccGridMapUtil
+isFree	include/hector_slam_lib/map/GridMapLogOdds.h	/^  bool isFree() const$/;"	f	class:LogOddsCell
+isFree	include/hector_slam_lib/map/GridMapReflectanceCount.h	/^  bool isFree() const{$/;"	f	class:ReflectanceCell
+isFree	include/hector_slam_lib/map/GridMapSimpleCount.h	/^  bool isFree() const$/;"	f	class:SimpleCountCell
+isFree	include/hector_slam_lib/map/OccGridMapBase.h	/^  bool isFree(int index) const$/;"	f	class:hectorslam::OccGridMapBase
+isFree	include/hector_slam_lib/map/OccGridMapBase.h	/^  bool isFree(int xMap, int yMap) const$/;"	f	class:hectorslam::OccGridMapBase
+isOccupied	include/hector_slam_lib/map/GridMapLogOdds.h	/^  bool isOccupied() const$/;"	f	class:LogOddsCell
+isOccupied	include/hector_slam_lib/map/GridMapReflectanceCount.h	/^  bool isOccupied() const$/;"	f	class:ReflectanceCell
+isOccupied	include/hector_slam_lib/map/GridMapSimpleCount.h	/^  bool isOccupied() const$/;"	f	class:SimpleCountCell
+isOccupied	include/hector_slam_lib/map/OccGridMapBase.h	/^  bool isOccupied(int index) const$/;"	f	class:hectorslam::OccGridMapBase
+isOccupied	include/hector_slam_lib/map/OccGridMapBase.h	/^  bool isOccupied(int xMap, int yMap) const$/;"	f	class:hectorslam::OccGridMapBase
+laserScanContainer	src/HectorMappingRos.h	/^  hectorslam::DataContainer laserScanContainer;$/;"	m	class:HectorMappingRos
+laser_point_cloud_	src/HectorMappingRos.h	/^  sensor_msgs::PointCloud laser_point_cloud_;$/;"	m	class:HectorMappingRos
+lastGetMapUpdateIndex	src/HectorMappingRos.h	/^  int lastGetMapUpdateIndex;$/;"	m	class:HectorMappingRos
+lastMapPublishTime	src/HectorMappingRos.h	/^  ros::Time lastMapPublishTime;$/;"	m	class:HectorMappingRos
+lastMapUpdatePose	include/hector_slam_lib/slam_main/HectorSlamProcessor.h	/^  Eigen::Vector3f lastMapUpdatePose;$/;"	m	class:hectorslam::HectorSlamProcessor
+lastScanMatchCov	include/hector_slam_lib/slam_main/HectorSlamProcessor.h	/^  Eigen::Matrix3f lastScanMatchCov;$/;"	m	class:hectorslam::HectorSlamProcessor
+lastScanMatchPose	include/hector_slam_lib/slam_main/HectorSlamProcessor.h	/^  Eigen::Vector3f lastScanMatchPose;$/;"	m	class:hectorslam::HectorSlamProcessor
+lastScanTime	src/HectorMappingRos.h	/^  ros::Time lastScanTime;$/;"	m	class:HectorMappingRos
+lastSlamPose	src/HectorMappingRos.h	/^  Eigen::Vector3f lastSlamPose;$/;"	m	class:HectorMappingRos
+lastUpdateIndex	include/hector_slam_lib/map/GridMapBase.h	/^  int lastUpdateIndex;$/;"	m	class:hectorslam::GridMapBase
+lockMap	src/HectorMapMutex.h	/^  virtual void lockMap()$/;"	f	class:HectorMapMutex
+logOddsFree	include/hector_slam_lib/map/GridMapLogOdds.h	/^  float logOddsFree;     \/\/\/ < The log odds representation of probability used for updating cells as free$/;"	m	class:GridMapLogOddsFunctions
+logOddsOccupied	include/hector_slam_lib/map/GridMapLogOdds.h	/^  float logOddsOccupied; \/\/\/ < The log odds representation of probability used for updating cells as occupied$/;"	m	class:GridMapLogOddsFunctions
+logOddsVal	include/hector_slam_lib/map/GridMapLogOdds.h	/^  float logOddsVal; \/\/\/< The log odds representation of occupancy probability.$/;"	m	class:LogOddsCell
+main	src/main.cpp	/^int main(int argc, char** argv)$/;"	f
+main	src/main_mapper.cpp	/^int main(int argc, char** argv)$/;"	f
+mapArray	include/hector_slam_lib/map/GridMapBase.h	/^  ConcreteCellType *mapArray;    \/\/\/< Map representation used with plain pointer array.$/;"	m	class:hectorslam::GridMapBase
+mapCallback	src/HectorMappingRos.cpp	/^bool HectorMappingRos::mapCallback(nav_msgs::GetMap::Request  &req,$/;"	f	class:HectorMappingRos
+mapContainer	include/hector_slam_lib/slam_main/MapRepMultiMap.h	/^  std::vector<MapProcContainer> mapContainer;$/;"	m	class:hectorslam::MapRepMultiMap
+mapDimensionProperties	include/hector_slam_lib/map/GridMapBase.h	/^  MapDimensionProperties mapDimensionProperties;$/;"	m	class:hectorslam::GridMapBase
+mapDimensions	include/hector_slam_lib/map/MapDimensionProperties.h	/^  Eigen::Vector2i mapDimensions;$/;"	m	class:MapDimensionProperties
+mapLimitsf	include/hector_slam_lib/map/MapDimensionProperties.h	/^  Eigen::Vector2f mapLimitsf;$/;"	m	class:MapDimensionProperties
+mapMetadataPublisher_	src/HectorMappingRos.h	/^  ros::Publisher mapMetadataPublisher_;$/;"	m	class:MapPublisherContainer
+mapModifyMutex_	src/HectorMapMutex.h	/^  boost::mutex mapModifyMutex_;$/;"	m	class:HectorMapMutex
+mapMutex	include/hector_slam_lib/slam_main/MapProcContainer.h	/^  MapLockerInterface* mapMutex;$/;"	m	class:hectorslam::MapProcContainer
+mapObstacleThreshold	include/hector_slam_lib/map/OccGridMapUtil.h	/^  float mapObstacleThreshold;$/;"	m	class:hectorslam::OccGridMapUtil
+mapPubContainer	src/HectorMappingRos.h	/^  std::vector<MapPublisherContainer> mapPubContainer;$/;"	m	class:HectorMappingRos
+mapPublisher_	src/HectorMappingRos.h	/^  ros::Publisher mapPublisher_;$/;"	m	class:MapPublisherContainer
+mapRep	include/hector_slam_lib/slam_main/HectorSlamProcessor.h	/^  MapRepresentationInterface* mapRep;$/;"	m	class:hectorslam::HectorSlamProcessor
+mapSubscriber_	src/HectorMappingRos.h	/^  ros::Subscriber mapSubscriber_;$/;"	m	class:HectorMappingRos
+mapTworld	include/hector_slam_lib/map/GridMapBase.h	/^  Eigen::Affine2f mapTworld;     \/\/\/< Homogenous 2D transform from world to map coordinates.$/;"	m	class:hectorslam::GridMapBase
+map_	src/HectorMappingRos.h	/^  nav_msgs::GetMap::Response map_;$/;"	m	class:MapPublisherContainer
+map__publish_thread_	src/HectorMappingRos.h	/^  boost::thread* map__publish_thread_;$/;"	m	class:HectorMappingRos
+map_to_odom_	src/HectorMappingRos.h	/^  tf::Transform map_to_odom_;$/;"	m	class:HectorMappingRos
+maplockerinterface_h__	include/hector_slam_lib/util/MapLockerInterface.h	30;"	d
+markerArray	src/HectorDrawings.h	/^  visualization_msgs::MarkerArray markerArray;$/;"	m	class:HectorDrawings
+markerArrayPublisher_	src/HectorDrawings.h	/^  ros::Publisher markerArrayPublisher_;$/;"	m	class:HectorDrawings
+markerPublisher_	src/HectorDrawings.h	/^  ros::Publisher markerPublisher_;$/;"	m	class:HectorDrawings
+matchData	include/hector_slam_lib/matcher/ScanMatcher.h	/^  Eigen::Vector3f matchData(const Eigen::Vector3f& beginEstimateWorld, ConcreteOccGridMapUtil& gridMapUtil, const DataContainer& dataContainer, Eigen::Matrix3f& covMatrix, int maxIterations)$/;"	f	class:hectorslam::ScanMatcher
+matchData	include/hector_slam_lib/slam_main/MapProcContainer.h	/^  Eigen::Vector3f matchData(const Eigen::Vector3f& beginEstimateWorld, const DataContainer& dataContainer, Eigen::Matrix3f& covMatrix, int maxIterations)$/;"	f	class:hectorslam::MapProcContainer
+matchData	include/hector_slam_lib/slam_main/MapRepMultiMap.h	/^  virtual Eigen::Vector3f matchData(const Eigen::Vector3f& beginEstimateWorld, const DataContainer& dataContainer, Eigen::Matrix3f& covMatrix)$/;"	f	class:hectorslam::MapRepMultiMap
+matchData	include/hector_slam_lib/slam_main/MapRepSingleMap.h	/^  virtual Eigen::Vector3f matchData(const Eigen::Vector3f& beginEstimateWorld, const DataContainer& dataContainer, Eigen::Matrix3f& covMatrix)$/;"	f	class:hectorslam::MapRepSingleMap
+node_	src/HectorMappingRos.h	/^  ros::NodeHandle node_;$/;"	m	class:HectorMappingRos
+normalize_angle	include/hector_slam_lib/util/UtilFunctions.h	/^static inline float normalize_angle(float angle)$/;"	f	namespace:util
+normalize_angle_pos	include/hector_slam_lib/util/UtilFunctions.h	/^static inline float normalize_angle_pos(float angle)$/;"	f	namespace:util
+odometryPublisher_	src/HectorMappingRos.h	/^  ros::Publisher odometryPublisher_;$/;"	m	class:HectorMappingRos
+onMapUpdated	include/hector_slam_lib/slam_main/MapRepMultiMap.h	/^  virtual void onMapUpdated()$/;"	f	class:hectorslam::MapRepMultiMap
+onMapUpdated	include/hector_slam_lib/slam_main/MapRepSingleMap.h	/^  virtual void onMapUpdated()$/;"	f	class:hectorslam::MapRepSingleMap
+operator =	include/hector_slam_lib/map/GridMapBase.h	/^  GridMapBase& operator=(const GridMapBase& other)$/;"	f	class:hectorslam::GridMapBase
+operator ==	include/hector_slam_lib/map/MapDimensionProperties.h	/^  bool operator==(const MapDimensionProperties& other) const$/;"	f	class:MapDimensionProperties
+origo	include/hector_slam_lib/scan/DataPointContainer.h	/^  DataPointType origo;$/;"	m	class:hectorslam::DataPointContainer
+p_advertise_map_service_	src/HectorMappingRos.h	/^  bool p_advertise_map_service_;$/;"	m	class:HectorMappingRos
+p_base_frame_	src/HectorMappingRos.h	/^  std::string p_base_frame_;$/;"	m	class:HectorMappingRos
+p_laser_z_max_value_	src/HectorMappingRos.h	/^  float p_laser_z_max_value_;$/;"	m	class:HectorMappingRos
+p_laser_z_min_value_	src/HectorMappingRos.h	/^  float p_laser_z_min_value_;$/;"	m	class:HectorMappingRos
+p_map_frame_	src/HectorMappingRos.h	/^  std::string p_map_frame_;$/;"	m	class:HectorMappingRos
+p_map_multi_res_levels_	src/HectorMappingRos.h	/^  int p_map_multi_res_levels_;$/;"	m	class:HectorMappingRos
+p_map_pub_period_	src/HectorMappingRos.h	/^  double p_map_pub_period_;$/;"	m	class:HectorMappingRos
+p_map_resolution_	src/HectorMappingRos.h	/^  double p_map_resolution_;$/;"	m	class:HectorMappingRos
+p_map_size_	src/HectorMappingRos.h	/^  int p_map_size_;$/;"	m	class:HectorMappingRos
+p_map_start_x_	src/HectorMappingRos.h	/^  double p_map_start_x_;$/;"	m	class:HectorMappingRos
+p_map_start_y_	src/HectorMappingRos.h	/^  double p_map_start_y_;$/;"	m	class:HectorMappingRos
+p_map_update_angle_threshold_	src/HectorMappingRos.h	/^  double p_map_update_angle_threshold_;$/;"	m	class:HectorMappingRos
+p_map_update_distance_threshold_	src/HectorMappingRos.h	/^  double p_map_update_distance_threshold_;$/;"	m	class:HectorMappingRos
+p_map_with_known_poses_	src/HectorMappingRos.h	/^  bool p_map_with_known_poses_;$/;"	m	class:HectorMappingRos
+p_odom_frame_	src/HectorMappingRos.h	/^  std::string p_odom_frame_;$/;"	m	class:HectorMappingRos
+p_pose_update_topic_	src/HectorMappingRos.h	/^  std::string p_pose_update_topic_;$/;"	m	class:HectorMappingRos
+p_pub_debug_output_	src/HectorMappingRos.h	/^  bool p_pub_debug_output_;$/;"	m	class:HectorMappingRos
+p_pub_drawings	src/HectorMappingRos.h	/^  bool p_pub_drawings;$/;"	m	class:HectorMappingRos
+p_pub_map_odom_transform_	src/HectorMappingRos.h	/^  bool p_pub_map_odom_transform_;$/;"	m	class:HectorMappingRos
+p_pub_map_scanmatch_transform_	src/HectorMappingRos.h	/^  bool p_pub_map_scanmatch_transform_;$/;"	m	class:HectorMappingRos
+p_pub_odometry_	src/HectorMappingRos.h	/^  bool p_pub_odometry_;$/;"	m	class:HectorMappingRos
+p_scan_subscriber_queue_size_	src/HectorMappingRos.h	/^  int p_scan_subscriber_queue_size_;$/;"	m	class:HectorMappingRos
+p_scan_topic_	src/HectorMappingRos.h	/^  std::string p_scan_topic_;$/;"	m	class:HectorMappingRos
+p_sqr_laser_max_dist_	src/HectorMappingRos.h	/^  float p_sqr_laser_max_dist_;$/;"	m	class:HectorMappingRos
+p_sqr_laser_min_dist_	src/HectorMappingRos.h	/^  float p_sqr_laser_min_dist_;$/;"	m	class:HectorMappingRos
+p_sys_msg_topic_	src/HectorMappingRos.h	/^  std::string p_sys_msg_topic_;$/;"	m	class:HectorMappingRos
+p_tf_map_scanmatch_transform_frame_name_	src/HectorMappingRos.h	/^  std::string p_tf_map_scanmatch_transform_frame_name_;$/;"	m	class:HectorMappingRos
+p_timing_output_	src/HectorMappingRos.h	/^  bool p_timing_output_;$/;"	m	class:HectorMappingRos
+p_twist_update_topic_	src/HectorMappingRos.h	/^  std::string p_twist_update_topic_;$/;"	m	class:HectorMappingRos
+p_update_factor_free_	src/HectorMappingRos.h	/^  double p_update_factor_free_;$/;"	m	class:HectorMappingRos
+p_update_factor_occupied_	src/HectorMappingRos.h	/^  double p_update_factor_occupied_;$/;"	m	class:HectorMappingRos
+p_use_tf_pose_start_estimate_	src/HectorMappingRos.h	/^  bool p_use_tf_pose_start_estimate_;$/;"	m	class:HectorMappingRos
+p_use_tf_scan_transformation_	src/HectorMappingRos.h	/^  bool p_use_tf_scan_transformation_;$/;"	m	class:HectorMappingRos
+paramMinAngleDiffForMapUpdate	include/hector_slam_lib/slam_main/HectorSlamProcessor.h	/^  float paramMinAngleDiffForMapUpdate;$/;"	m	class:hectorslam::HectorSlamProcessor
+paramMinDistanceDiffForMapUpdate	include/hector_slam_lib/slam_main/HectorSlamProcessor.h	/^  float paramMinDistanceDiffForMapUpdate;$/;"	m	class:hectorslam::HectorSlamProcessor
+pointOutOfMapBounds	include/hector_slam_lib/map/GridMapBase.h	/^  bool pointOutOfMapBounds(const Eigen::Vector2f& pointMapCoords) const$/;"	f	class:hectorslam::GridMapBase
+pointOutOfMapBounds	include/hector_slam_lib/map/MapDimensionProperties.h	/^  bool pointOutOfMapBounds(const Eigen::Vector2f& coords) const$/;"	f	class:MapDimensionProperties
+poseDifferenceLargerThan	include/hector_slam_lib/util/UtilFunctions.h	/^static bool poseDifferenceLargerThan(const Eigen::Vector3f& pose1, const Eigen::Vector3f& pose2, float distanceDiffThresh, float angleDiffThresh)$/;"	f	namespace:util
+poseInfoContainer_	src/HectorMappingRos.h	/^  PoseInfoContainer poseInfoContainer_;$/;"	m	class:HectorMappingRos
+posePublisher_	src/HectorMappingRos.h	/^  ros::Publisher posePublisher_;$/;"	m	class:HectorMappingRos
+poseTransform_	src/PoseInfoContainer.h	/^  tf::Transform poseTransform_;$/;"	m	class:PoseInfoContainer
+poseUpdatePublisher_	src/HectorMappingRos.h	/^  ros::Publisher poseUpdatePublisher_;$/;"	m	class:HectorMappingRos
+probOccupied	include/hector_slam_lib/map/GridMapReflectanceCount.h	/^  float probOccupied;$/;"	m	class:ReflectanceCell
+probToLogOdds	include/hector_slam_lib/map/GridMapLogOdds.h	/^  float probToLogOdds(float prob)$/;"	f	class:GridMapLogOddsFunctions
+projector_	src/HectorMappingRos.h	/^  laser_geometry::LaserProjection projector_;$/;"	m	class:HectorMappingRos
+publishMap	src/HectorMappingRos.cpp	/^void HectorMappingRos::publishMap(MapPublisherContainer& mapPublisher, const hectorslam::GridMap& gridMap, ros::Time timestamp, MapLockerInterface* mapMutex)$/;"	f	class:HectorMappingRos
+publishMapLoop	src/HectorMappingRos.cpp	/^void HectorMappingRos::publishMapLoop(double map_pub_period)$/;"	f	class:HectorMappingRos
+reflectedCount	include/hector_slam_lib/map/GridMapReflectanceCount.h	/^  float reflectedCount;$/;"	m	class:ReflectanceCell
+reset	include/hector_slam_lib/map/GridMapBase.h	/^  virtual void reset()$/;"	f	class:hectorslam::GridMapBase
+reset	include/hector_slam_lib/slam_main/HectorSlamProcessor.h	/^  void reset()$/;"	f	class:hectorslam::HectorSlamProcessor
+reset	include/hector_slam_lib/slam_main/MapProcContainer.h	/^  void reset()$/;"	f	class:hectorslam::MapProcContainer
+reset	include/hector_slam_lib/slam_main/MapRepMultiMap.h	/^  virtual void reset()$/;"	f	class:hectorslam::MapRepMultiMap
+reset	include/hector_slam_lib/slam_main/MapRepSingleMap.h	/^  virtual void reset()$/;"	f	class:hectorslam::MapRepSingleMap
+resetCache	include/hector_slam_lib/map/GridMapCacheArray.h	/^  void resetCache()$/;"	f	class:GridMapCacheArray
+resetCachedData	include/hector_slam_lib/map/OccGridMapUtil.h	/^  void resetCachedData()$/;"	f	class:hectorslam::OccGridMapUtil
+resetCachedData	include/hector_slam_lib/slam_main/MapProcContainer.h	/^  void resetCachedData()$/;"	f	class:hectorslam::MapProcContainer
+resetGridCell	include/hector_slam_lib/map/GridMapLogOdds.h	/^  void resetGridCell()$/;"	f	class:LogOddsCell
+resetGridCell	include/hector_slam_lib/map/GridMapReflectanceCount.h	/^  void resetGridCell()$/;"	f	class:ReflectanceCell
+resetGridCell	include/hector_slam_lib/map/GridMapSimpleCount.h	/^  void resetGridCell()$/;"	f	class:SimpleCountCell
+resetSamplePoints	include/hector_slam_lib/map/OccGridMapUtil.h	/^  void resetSamplePoints()$/;"	f	class:hectorslam::OccGridMapUtil
+rosLaserScanToDataContainer	src/HectorMappingRos.cpp	/^bool HectorMappingRos::rosLaserScanToDataContainer(const sensor_msgs::LaserScan& scan, hectorslam::DataContainer& dataContainer, float scaleToMap)$/;"	f	class:HectorMappingRos
+rosPointCloudToDataContainer	src/HectorMappingRos.cpp	/^bool HectorMappingRos::rosPointCloudToDataContainer(const sensor_msgs::PointCloud& pointCloud, const tf::StampedTransform& laserTransform, hectorslam::DataContainer& dataContainer, float scaleToMap)$/;"	f	class:HectorMappingRos
+samplePoints	include/hector_slam_lib/map/OccGridMapUtil.h	/^  std::vector<Eigen::Vector3f> samplePoints;$/;"	m	class:hectorslam::OccGridMapUtil
+scaleToMap	include/hector_slam_lib/map/GridMapBase.h	/^  float scaleToMap;              \/\/\/< Scaling factor from world to map.$/;"	m	class:hectorslam::GridMapBase
+scanCallback	src/HectorMappingRos.cpp	/^void HectorMappingRos::scanCallback(const sensor_msgs::LaserScan& scan)$/;"	f	class:HectorMappingRos
+scanMatcher	include/hector_slam_lib/slam_main/MapProcContainer.h	/^  ScanMatcher<OccGridMapUtilConfig<GridMap> >* scanMatcher;$/;"	m	class:hectorslam::MapProcContainer
+scanMatcher	include/hector_slam_lib/slam_main/MapRepSingleMap.h	/^  ScanMatcher<OccGridMapUtilConfig<GridMap> >* scanMatcher;$/;"	m	class:hectorslam::MapRepSingleMap
+scanSubscriber_	src/HectorMappingRos.h	/^  ros::Subscriber scanSubscriber_;$/;"	m	class:HectorMappingRos
+scan_point_cloud_publisher_	src/HectorMappingRos.h	/^  ros::Publisher scan_point_cloud_publisher_;$/;"	m	class:HectorMappingRos
+sendAndResetData	src/HectorDebugInfoProvider.h	/^  virtual void sendAndResetData()$/;"	f	class:HectorDebugInfoProvider
+sendAndResetData	src/HectorDrawings.h	/^  virtual void sendAndResetData()$/;"	f	class:HectorDrawings
+set	include/hector_slam_lib/map/GridMapLogOdds.h	/^  void set(float val)$/;"	f	class:LogOddsCell
+set	include/hector_slam_lib/map/GridMapReflectanceCount.h	/^  void set(float val)$/;"	f	class:ReflectanceCell
+set	include/hector_slam_lib/map/GridMapSimpleCount.h	/^  void set(float val)$/;"	f	class:SimpleCountCell
+setArraySize	include/hector_slam_lib/map/GridMapCacheArray.h	/^  void setArraySize(const Eigen::Vector2i& newDimensions)$/;"	f	class:GridMapCacheArray
+setCellLength	include/hector_slam_lib/map/MapDimensionProperties.h	/^  void setCellLength(float cl) { cellLength = cl; };$/;"	f	class:MapDimensionProperties
+setColor	src/HectorDrawings.h	/^  virtual void setColor(double r, double g, double b, double a = 1.0)$/;"	f	class:HectorDrawings
+setDimensionProperties	include/hector_slam_lib/map/GridMapBase.h	/^  void setDimensionProperties(const Eigen::Vector2f& topLeftOffsetIn, const Eigen::Vector2i& mapDimensionsIn, float cellLengthIn)$/;"	f	class:hectorslam::GridMapBase
+setDimensionProperties	include/hector_slam_lib/map/GridMapBase.h	/^  void setDimensionProperties(const MapDimensionProperties& newMapDimProps)$/;"	f	class:hectorslam::GridMapBase
+setFrom	include/hector_slam_lib/scan/DataPointContainer.h	/^  void setFrom(const DataPointContainer& other, float factor)$/;"	f	class:hectorslam::DataPointContainer
+setMapCellDims	include/hector_slam_lib/map/MapDimensionProperties.h	/^  void setMapCellDims(const Eigen::Vector2i& newDims)$/;"	f	class:MapDimensionProperties
+setMapGridSize	include/hector_slam_lib/map/GridMapBase.h	/^  void setMapGridSize(const Eigen::Vector2i& newMapDims)$/;"	f	class:hectorslam::GridMapBase
+setMapSize	include/hector_slam_lib/map/GridMapCacheArray.h	/^  void setMapSize(const Eigen::Vector2i& newDimensions)$/;"	f	class:GridMapCacheArray
+setMapTransformation	include/hector_slam_lib/map/GridMapBase.h	/^  void setMapTransformation(const Eigen::Vector2f& topLeftOffset, float cellLength)$/;"	f	class:hectorslam::GridMapBase
+setMapUpdateMinAngleDiff	include/hector_slam_lib/slam_main/HectorSlamProcessor.h	/^  void setMapUpdateMinAngleDiff(float angleChange) { paramMinAngleDiffForMapUpdate = angleChange; };$/;"	f	class:hectorslam::HectorSlamProcessor
+setMapUpdateMinDistDiff	include/hector_slam_lib/slam_main/HectorSlamProcessor.h	/^  void setMapUpdateMinDistDiff(float minDist) { paramMinDistanceDiffForMapUpdate = minDist; };$/;"	f	class:hectorslam::HectorSlamProcessor
+setOrigo	include/hector_slam_lib/scan/DataPointContainer.h	/^  void setOrigo(const DataPointType& origoIn)$/;"	f	class:hectorslam::DataPointContainer
+setScale	src/HectorDrawings.h	/^  virtual void setScale(double scale)$/;"	f	class:HectorDrawings
+setServiceGetMapData	src/HectorMappingRos.cpp	/^void HectorMappingRos::setServiceGetMapData(nav_msgs::GetMap::Response& map_, const hectorslam::GridMap& gridMap)$/;"	f	class:HectorMappingRos
+setSizeX	include/hector_slam_lib/map/MapDimensionProperties.h	/^  void setSizeX(int sX) { mapDimensions[0] = sX; };$/;"	f	class:MapDimensionProperties
+setSizeY	include/hector_slam_lib/map/MapDimensionProperties.h	/^  void setSizeY(int sY) { mapDimensions[1] = sY; };$/;"	f	class:MapDimensionProperties
+setTime	src/HectorDrawings.h	/^  void setTime(const ros::Time& time)$/;"	f	class:HectorDrawings
+setTopLeftOffset	include/hector_slam_lib/map/MapDimensionProperties.h	/^  void setTopLeftOffset(const Eigen::Vector2f& topLeftOffsetIn)$/;"	f	class:MapDimensionProperties
+setUpdateFactorFree	include/hector_slam_lib/slam_main/HectorSlamProcessor.h	/^  void setUpdateFactorFree(float free_factor) { mapRep->setUpdateFactorFree(free_factor); };$/;"	f	class:hectorslam::HectorSlamProcessor
+setUpdateFactorFree	include/hector_slam_lib/slam_main/MapRepMultiMap.h	/^  virtual void setUpdateFactorFree(float free_factor)$/;"	f	class:hectorslam::MapRepMultiMap
+setUpdateFactorOccupied	include/hector_slam_lib/slam_main/HectorSlamProcessor.h	/^  void setUpdateFactorOccupied(float occupied_factor) { mapRep->setUpdateFactorOccupied(occupied_factor); };$/;"	f	class:hectorslam::HectorSlamProcessor
+setUpdateFactorOccupied	include/hector_slam_lib/slam_main/MapRepMultiMap.h	/^  virtual void setUpdateFactorOccupied(float occupied_factor)$/;"	f	class:hectorslam::MapRepMultiMap
+setUpdateFreeFactor	include/hector_slam_lib/map/GridMapLogOdds.h	/^  void setUpdateFreeFactor(float factor)$/;"	f	class:GridMapLogOddsFunctions
+setUpdateFreeFactor	include/hector_slam_lib/map/OccGridMapBase.h	/^  void setUpdateFreeFactor(float factor)$/;"	f	class:hectorslam::OccGridMapBase
+setUpdateOccupiedFactor	include/hector_slam_lib/map/GridMapLogOdds.h	/^  void setUpdateOccupiedFactor(float factor)$/;"	f	class:GridMapLogOddsFunctions
+setUpdateOccupiedFactor	include/hector_slam_lib/map/OccGridMapBase.h	/^  void setUpdateOccupiedFactor(float factor)$/;"	f	class:hectorslam::OccGridMapBase
+setUpdated	include/hector_slam_lib/map/GridMapBase.h	/^  void setUpdated() { lastUpdateIndex++; };$/;"	f	class:hectorslam::GridMapBase
+sign	include/hector_slam_lib/util/UtilFunctions.h	/^static inline int sign(int x)$/;"	f	namespace:util
+simpleOccVal	include/hector_slam_lib/map/GridMapSimpleCount.h	/^  float simpleOccVal; \/\/\/< The log odds representation of occupancy probability.$/;"	m	class:SimpleCountCell
+size	include/hector_slam_lib/map/OccGridMapUtil.h	/^  int size;$/;"	m	class:hectorslam::OccGridMapUtil
+sizeX	include/hector_slam_lib/map/GridMapBase.h	/^  int sizeX;$/;"	m	class:hectorslam::GridMapBase
+slamProcessor	src/HectorMappingRos.h	/^  hectorslam::HectorSlamProcessor* slamProcessor;$/;"	m	class:HectorMappingRos
+sqr	include/hector_slam_lib/util/UtilFunctions.h	/^static inline float sqr(float val)$/;"	f	namespace:util
+stampedPose_	src/PoseInfoContainer.h	/^  geometry_msgs::PoseStamped stampedPose_;$/;"	m	class:PoseInfoContainer
+staticMapCallback	src/HectorMappingRos.cpp	/^void HectorMappingRos::staticMapCallback(const nav_msgs::OccupancyGrid& map)$/;"	f	class:HectorMappingRos
+sysMsgCallback	src/HectorMappingRos.cpp	/^void HectorMappingRos::sysMsgCallback(const std_msgs::String& string)$/;"	f	class:HectorMappingRos
+sysMsgSubscriber_	src/HectorMappingRos.h	/^  ros::Subscriber sysMsgSubscriber_;$/;"	m	class:HectorMappingRos
+tempMarker	src/HectorDrawings.h	/^  visualization_msgs::Marker tempMarker;$/;"	m	class:HectorDrawings
+tfB_	src/HectorMappingRos.h	/^  tf::TransformBroadcaster* tfB_;$/;"	m	class:HectorMappingRos
+tfScalar	src/HectorMappingRos.cpp	/^  typedef btScalar tfScalar;$/;"	t	file:
+tf_	src/HectorMappingRos.h	/^  tf::TransformListener tf_;$/;"	m	class:HectorMappingRos
+toDeg	include/hector_slam_lib/util/UtilFunctions.h	/^static T toDeg(const T radVal)$/;"	f	namespace:util
+toRad	include/hector_slam_lib/util/UtilFunctions.h	/^static T toRad(const T degVal)$/;"	f	namespace:util
+topLeftOffset	include/hector_slam_lib/map/MapDimensionProperties.h	/^  Eigen::Vector2f topLeftOffset;$/;"	m	class:MapDimensionProperties
+twistUpdatePublisher_	src/HectorMappingRos.h	/^  ros::Publisher twistUpdatePublisher_;$/;"	m	class:HectorMappingRos
+unlockMap	src/HectorMapMutex.h	/^  virtual void unlockMap()$/;"	f	class:HectorMapMutex
+update	include/hector_slam_lib/slam_main/HectorSlamProcessor.h	/^  void update(const DataContainer& dataContainer, const Eigen::Vector3f& poseHintWorld, bool map_without_matching = false)$/;"	f	class:hectorslam::HectorSlamProcessor
+update	src/PoseInfoContainer.cpp	/^void PoseInfoContainer::update(const Eigen::Vector3f& slamPose, const Eigen::Matrix3f& slamCov, const ros::Time& stamp, const std::string& frame_id)$/;"	f	class:PoseInfoContainer
+updateByScan	include/hector_slam_lib/map/OccGridMapBase.h	/^  void updateByScan(const DataContainer& dataContainer, const Eigen::Vector3f& robotPoseWorld)$/;"	f	class:hectorslam::OccGridMapBase
+updateByScan	include/hector_slam_lib/slam_main/MapProcContainer.h	/^  void updateByScan(const DataContainer& dataContainer, const Eigen::Vector3f& robotPoseWorld)$/;"	f	class:hectorslam::MapProcContainer
+updateByScan	include/hector_slam_lib/slam_main/MapRepMultiMap.h	/^  virtual void updateByScan(const DataContainer& dataContainer, const Eigen::Vector3f& robotPoseWorld)$/;"	f	class:hectorslam::MapRepMultiMap
+updateByScan	include/hector_slam_lib/slam_main/MapRepSingleMap.h	/^  virtual void updateByScan(const DataContainer& dataContainer, const Eigen::Vector3f& robotPoseWorld)$/;"	f	class:hectorslam::MapRepSingleMap
+updateEstimatedPose	include/hector_slam_lib/matcher/ScanMatcher.h	/^  void updateEstimatedPose(Eigen::Vector3f& estimate, const Eigen::Vector3f& change)$/;"	f	class:hectorslam::ScanMatcher
+updateFreeLimit	include/hector_slam_lib/map/GridMapSimpleCount.h	/^  float updateFreeLimit;$/;"	m	class:GridMapSimpleCountFunctions
+updateFreeVal	include/hector_slam_lib/map/GridMapSimpleCount.h	/^  float updateFreeVal;$/;"	m	class:GridMapSimpleCountFunctions
+updateIndex	include/hector_slam_lib/map/GridMapLogOdds.h	/^  int updateIndex;$/;"	m	class:LogOddsCell
+updateIndex	include/hector_slam_lib/map/GridMapReflectanceCount.h	/^  int updateIndex;$/;"	m	class:ReflectanceCell
+updateIndex	include/hector_slam_lib/map/GridMapSimpleCount.h	/^  int updateIndex;$/;"	m	class:SimpleCountCell
+updateLineBresenhami	include/hector_slam_lib/map/OccGridMapBase.h	/^  inline void updateLineBresenhami( const Eigen::Vector2i& beginMap, const Eigen::Vector2i& endMap, unsigned int max_length = UINT_MAX){$/;"	f	class:hectorslam::OccGridMapBase
+updateOccLimit	include/hector_slam_lib/map/GridMapSimpleCount.h	/^  float updateOccLimit;$/;"	m	class:GridMapSimpleCountFunctions
+updateOccVal	include/hector_slam_lib/map/GridMapSimpleCount.h	/^  float updateOccVal;$/;"	m	class:GridMapSimpleCountFunctions
+updateSetFree	include/hector_slam_lib/map/GridMapLogOdds.h	/^  void updateSetFree(LogOddsCell& cell) const$/;"	f	class:GridMapLogOddsFunctions
+updateSetFree	include/hector_slam_lib/map/GridMapReflectanceCount.h	/^  void updateSetFree(ReflectanceCell& cell) const$/;"	f	class:GridMapReflectanceFunctions
+updateSetFree	include/hector_slam_lib/map/GridMapSimpleCount.h	/^  void updateSetFree(SimpleCountCell& cell) const$/;"	f	class:GridMapSimpleCountFunctions
+updateSetFree	include/hector_slam_lib/map/OccGridMapBase.h	/^  void updateSetFree(int index)$/;"	f	class:hectorslam::OccGridMapBase
+updateSetOccupied	include/hector_slam_lib/map/GridMapLogOdds.h	/^  void updateSetOccupied(LogOddsCell& cell) const$/;"	f	class:GridMapLogOddsFunctions
+updateSetOccupied	include/hector_slam_lib/map/GridMapReflectanceCount.h	/^  void updateSetOccupied(ReflectanceCell& cell) const$/;"	f	class:GridMapReflectanceFunctions
+updateSetOccupied	include/hector_slam_lib/map/GridMapSimpleCount.h	/^  void updateSetOccupied(SimpleCountCell& cell) const$/;"	f	class:GridMapSimpleCountFunctions
+updateSetOccupied	include/hector_slam_lib/map/OccGridMapBase.h	/^  void updateSetOccupied(int index)$/;"	f	class:hectorslam::OccGridMapBase
+updateUnsetFree	include/hector_slam_lib/map/GridMapLogOdds.h	/^  void updateUnsetFree(LogOddsCell& cell) const$/;"	f	class:GridMapLogOddsFunctions
+updateUnsetFree	include/hector_slam_lib/map/GridMapReflectanceCount.h	/^  void updateUnsetFree(ReflectanceCell& cell) const$/;"	f	class:GridMapReflectanceFunctions
+updateUnsetFree	include/hector_slam_lib/map/GridMapSimpleCount.h	/^  void updateUnsetFree(SimpleCountCell& cell) const$/;"	f	class:GridMapSimpleCountFunctions
+updateUnsetFree	include/hector_slam_lib/map/OccGridMapBase.h	/^  void updateUnsetFree(int index)$/;"	f	class:hectorslam::OccGridMapBase
+util	include/hector_slam_lib/util/UtilFunctions.h	/^namespace util{$/;"	n
+utilfunctions_h__	include/hector_slam_lib/util/UtilFunctions.h	30;"	d
+val	include/hector_slam_lib/map/GridMapCacheArray.h	/^  float val;$/;"	m	class:CachedMapElement
+visitedCount	include/hector_slam_lib/map/GridMapReflectanceCount.h	/^  float visitedCount;$/;"	m	class:ReflectanceCell
+worldTmap	include/hector_slam_lib/map/GridMapBase.h	/^  Eigen::Affine2f worldTmap;     \/\/\/< Homogenous 2D transform from map to world coordinates.$/;"	m	class:hectorslam::GridMapBase
+worldTmap3D	include/hector_slam_lib/map/GridMapBase.h	/^  Eigen::Affine3f worldTmap3D;   \/\/\/< Homogenous 3D transform from map to world coordinates.$/;"	m	class:hectorslam::GridMapBase
+~GridMapBase	include/hector_slam_lib/map/GridMapBase.h	/^  virtual ~GridMapBase()$/;"	f	class:hectorslam::GridMapBase
+~GridMapCacheArray	include/hector_slam_lib/map/GridMapCacheArray.h	/^  ~GridMapCacheArray()$/;"	f	class:GridMapCacheArray
+~HectorMappingRos	src/HectorMappingRos.cpp	/^HectorMappingRos::~HectorMappingRos()$/;"	f	class:HectorMappingRos
+~HectorSlamProcessor	include/hector_slam_lib/slam_main/HectorSlamProcessor.h	/^  ~HectorSlamProcessor()$/;"	f	class:hectorslam::HectorSlamProcessor
+~MapProcContainer	include/hector_slam_lib/slam_main/MapProcContainer.h	/^  virtual ~MapProcContainer()$/;"	f	class:hectorslam::MapProcContainer
+~MapRepMultiMap	include/hector_slam_lib/slam_main/MapRepMultiMap.h	/^  virtual ~MapRepMultiMap()$/;"	f	class:hectorslam::MapRepMultiMap
+~MapRepSingleMap	include/hector_slam_lib/slam_main/MapRepSingleMap.h	/^  virtual ~MapRepSingleMap()$/;"	f	class:hectorslam::MapRepSingleMap
+~MapRepresentationInterface	include/hector_slam_lib/slam_main/MapRepresentationInterface.h	/^  virtual ~MapRepresentationInterface() {};$/;"	f	class:hectorslam::MapRepresentationInterface
+~OccGridMapBase	include/hector_slam_lib/map/OccGridMapBase.h	/^  virtual ~OccGridMapBase() {}$/;"	f	class:hectorslam::OccGridMapBase
+~OccGridMapUtil	include/hector_slam_lib/map/OccGridMapUtil.h	/^  ~OccGridMapUtil()$/;"	f	class:hectorslam::OccGridMapUtil
+~ScanMatcher	include/hector_slam_lib/matcher/ScanMatcher.h	/^  ~ScanMatcher()$/;"	f	class:hectorslam::ScanMatcher

@@ -1,0 +1,31 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Impl	src/teleop_twist_joy.cpp	/^struct TeleopTwistJoy::Impl$/;"	s	class:teleop_twist_joy::TeleopTwistJoy	file:
+TELEOP_TWIST_JOY_TELEOP_TWIST_JOY_H	include/teleop_twist_joy/teleop_twist_joy.h	26;"	d
+TeleopTwistJoy	include/teleop_twist_joy/teleop_twist_joy.h	/^class TeleopTwistJoy$/;"	c	namespace:teleop_twist_joy
+TeleopTwistJoy	src/teleop_twist_joy.cpp	/^TeleopTwistJoy::TeleopTwistJoy(ros::NodeHandle* nh, ros::NodeHandle* nh_param)$/;"	f	class:teleop_twist_joy::TeleopTwistJoy
+TestJoyTwist	test/test_joy_twist.py	/^class TestJoyTwist(unittest.TestCase):$/;"	c
+axis_angular_map	src/teleop_twist_joy.cpp	/^  std::map<std::string, int> axis_angular_map;$/;"	m	struct:teleop_twist_joy::TeleopTwistJoy::Impl	file:
+axis_linear_map	src/teleop_twist_joy.cpp	/^  std::map<std::string, int> axis_linear_map;$/;"	m	struct:teleop_twist_joy::TeleopTwistJoy::Impl	file:
+callback	test/test_joy_twist.py	/^    def callback(self, msg):$/;"	m	class:TestJoyTwist
+cmd_vel_pub	src/teleop_twist_joy.cpp	/^  ros::Publisher cmd_vel_pub;$/;"	m	struct:teleop_twist_joy::TeleopTwistJoy::Impl	file:
+enable_button	src/teleop_twist_joy.cpp	/^  int enable_button;$/;"	m	struct:teleop_twist_joy::TeleopTwistJoy::Impl	file:
+enable_turbo_button	src/teleop_twist_joy.cpp	/^  int enable_turbo_button;$/;"	m	struct:teleop_twist_joy::TeleopTwistJoy::Impl	file:
+joyCallback	src/teleop_twist_joy.cpp	/^void TeleopTwistJoy::Impl::joyCallback(const sensor_msgs::Joy::ConstPtr& joy_msg)$/;"	f	class:teleop_twist_joy::TeleopTwistJoy::Impl
+joy_sub	src/teleop_twist_joy.cpp	/^  ros::Subscriber joy_sub;$/;"	m	struct:teleop_twist_joy::TeleopTwistJoy::Impl	file:
+main	src/teleop_node.cpp	/^int main(int argc, char *argv[])$/;"	f
+pimpl_	include/teleop_twist_joy/teleop_twist_joy.h	/^  Impl* pimpl_;$/;"	m	class:teleop_twist_joy::TeleopTwistJoy
+ros	include/teleop_twist_joy/teleop_twist_joy.h	/^namespace ros { class NodeHandle; }$/;"	n
+scale_angular_map	src/teleop_twist_joy.cpp	/^  std::map<std::string, double> scale_angular_map;$/;"	m	struct:teleop_twist_joy::TeleopTwistJoy::Impl	file:
+scale_angular_turbo_map	src/teleop_twist_joy.cpp	/^  std::map<std::string, double> scale_angular_turbo_map;$/;"	m	struct:teleop_twist_joy::TeleopTwistJoy::Impl	file:
+scale_linear_map	src/teleop_twist_joy.cpp	/^  std::map<std::string, double> scale_linear_map;$/;"	m	struct:teleop_twist_joy::TeleopTwistJoy::Impl	file:
+scale_linear_turbo_map	src/teleop_twist_joy.cpp	/^  std::map<std::string, double> scale_linear_turbo_map;$/;"	m	struct:teleop_twist_joy::TeleopTwistJoy::Impl	file:
+sent_disable_msg	src/teleop_twist_joy.cpp	/^  bool sent_disable_msg;$/;"	m	struct:teleop_twist_joy::TeleopTwistJoy::Impl	file:
+setUp	test/test_joy_twist.py	/^    def setUp(self):$/;"	m	class:TestJoyTwist
+teleop_twist_joy	include/teleop_twist_joy/teleop_twist_joy.h	/^namespace teleop_twist_joy$/;"	n
+teleop_twist_joy	src/teleop_twist_joy.cpp	/^namespace teleop_twist_joy$/;"	n	file:
+test_expected	test/test_joy_twist.py	/^    def test_expected(self):$/;"	m	class:TestJoyTwist

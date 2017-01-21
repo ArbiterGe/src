@@ -1,0 +1,401 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AMCLLaser	include/amcl/sensors/amcl_laser.h	/^class AMCLLaser : public AMCLSensor$/;"	c	namespace:amcl
+AMCLLaser	src/amcl/sensors/amcl_laser.cpp	/^AMCLLaser::AMCLLaser(size_t max_beams, map_t* map) : AMCLSensor(), $/;"	f	class:AMCLLaser
+AMCLLaserData	include/amcl/sensors/amcl_laser.h	/^    AMCLLaserData () {ranges=NULL;};$/;"	f	class:amcl::AMCLLaserData
+AMCLLaserData	include/amcl/sensors/amcl_laser.h	/^class AMCLLaserData : public AMCLSensorData$/;"	c	namespace:amcl
+AMCLOdom	include/amcl/sensors/amcl_odom.h	/^class AMCLOdom : public AMCLSensor$/;"	c	namespace:amcl
+AMCLOdom	src/amcl/sensors/amcl_odom.cpp	/^AMCLOdom::AMCLOdom() : AMCLSensor()$/;"	f	class:AMCLOdom
+AMCLOdomData	include/amcl/sensors/amcl_odom.h	/^class AMCLOdomData : public AMCLSensorData$/;"	c	namespace:amcl
+AMCLSensor	include/amcl/sensors/amcl_sensor.h	/^class AMCLSensor$/;"	c	namespace:amcl
+AMCLSensor	src/amcl/sensors/amcl_sensor.cpp	/^AMCLSensor::AMCLSensor()$/;"	f	class:AMCLSensor
+AMCLSensorData	include/amcl/sensors/amcl_sensor.h	/^class AMCLSensorData$/;"	c	namespace:amcl
+AMCL_LASER_H	include/amcl/sensors/amcl_laser.h	30;"	d
+AMCL_ODOM_H	include/amcl/sensors/amcl_odom.h	30;"	d
+AMCL_SENSOR_H	include/amcl/sensors/amcl_sensor.h	29;"	d
+AmclNode	src/amcl_node.cpp	/^AmclNode::AmclNode() :$/;"	f	class:AmclNode
+AmclNode	src/amcl_node.cpp	/^class AmclNode$/;"	c	file:
+BeamModel	src/amcl/sensors/amcl_laser.cpp	/^double AMCLLaser::BeamModel(AMCLLaserData *data, pf_sample_set_t* set)$/;"	f	class:AMCLLaser
+CachedDistanceMap	src/amcl/map/map_cspace.cpp	/^    CachedDistanceMap(double scale, double max_dist) : $/;"	f	class:CachedDistanceMap
+CachedDistanceMap	src/amcl/map/map_cspace.cpp	/^class CachedDistanceMap$/;"	c	file:
+CellData	src/amcl/map/map_cspace.cpp	/^class CellData$/;"	c	file:
+InitSensor	src/amcl/sensors/amcl_sensor.cpp	/^bool AMCLSensor::InitSensor(pf_t *pf, AMCLSensorData *data)$/;"	f	class:AMCLSensor
+LASER_MODEL_BEAM	include/amcl/sensors/amcl_laser.h	/^  LASER_MODEL_BEAM,$/;"	e	enum:amcl::__anon7
+LASER_MODEL_LIKELIHOOD_FIELD	include/amcl/sensors/amcl_laser.h	/^  LASER_MODEL_LIKELIHOOD_FIELD,$/;"	e	enum:amcl::__anon7
+LASER_MODEL_LIKELIHOOD_FIELD_PROB	include/amcl/sensors/amcl_laser.h	/^  LASER_MODEL_LIKELIHOOD_FIELD_PROB$/;"	e	enum:amcl::__anon7
+LikelihoodFieldModel	src/amcl/sensors/amcl_laser.cpp	/^double AMCLLaser::LikelihoodFieldModel(AMCLLaserData *data, pf_sample_set_t* set)$/;"	f	class:AMCLLaser
+LikelihoodFieldModelProb	src/amcl/sensors/amcl_laser.cpp	/^double AMCLLaser::LikelihoodFieldModelProb(AMCLLaserData *data, pf_sample_set_t* set)$/;"	f	class:AMCLLaser
+MAP_GXWX	include/amcl/map/map.h	137;"	d
+MAP_GYWY	include/amcl/map/map.h	138;"	d
+MAP_H	include/amcl/map/map.h	29;"	d
+MAP_INDEX	include/amcl/map/map.h	144;"	d
+MAP_VALID	include/amcl/map/map.h	141;"	d
+MAP_WIFI_MAX_LEVELS	include/amcl/map/map.h	42;"	d
+MAP_WXGX	include/amcl/map/map.h	133;"	d
+MAP_WYGY	include/amcl/map/map.h	134;"	d
+MAX	src/amcl/pf/eig3.c	8;"	d	file:
+NEW_UNIFORM_SAMPLING	src/amcl_node.cpp	69;"	d	file:
+ODOM_MODEL_DIFF	include/amcl/sensors/amcl_odom.h	/^  ODOM_MODEL_DIFF,$/;"	e	enum:amcl::__anon8
+ODOM_MODEL_DIFF_CORRECTED	include/amcl/sensors/amcl_odom.h	/^  ODOM_MODEL_DIFF_CORRECTED,$/;"	e	enum:amcl::__anon8
+ODOM_MODEL_OMNI	include/amcl/sensors/amcl_odom.h	/^  ODOM_MODEL_OMNI,$/;"	e	enum:amcl::__anon8
+ODOM_MODEL_OMNI_CORRECTED	include/amcl/sensors/amcl_odom.h	/^  ODOM_MODEL_OMNI_CORRECTED$/;"	e	enum:amcl::__anon8
+PACKAGE	cfg/AMCL.cfg	/^PACKAGE = 'amcl'$/;"	v
+PF_H	include/amcl/pf/pf.h	29;"	d
+PF_KDTREE_H	include/amcl/pf/pf_kdtree.h	29;"	d
+PF_PDF_H	include/amcl/pf/pf_pdf.h	29;"	d
+PF_VECTOR_H	include/amcl/pf/pf_vector.h	29;"	d
+PoseSetter	test/set_pose.py	/^class PoseSetter(rospy.SubscribeListener):$/;"	c
+SetLaserPose	include/amcl/sensors/amcl_laser.h	/^  public: void SetLaserPose(pf_vector_t& laser_pose) $/;"	f	class:amcl::AMCLLaser
+SetModel	src/amcl/sensors/amcl_odom.cpp	/^AMCLOdom::SetModel( odom_model_t type,$/;"	f	class:AMCLOdom
+SetModelBeam	src/amcl/sensors/amcl_laser.cpp	/^AMCLLaser::SetModelBeam(double z_hit,$/;"	f	class:AMCLLaser
+SetModelDiff	src/amcl/sensors/amcl_odom.cpp	/^AMCLOdom::SetModelDiff(double alpha1, $/;"	f	class:AMCLOdom
+SetModelLikelihoodField	src/amcl/sensors/amcl_laser.cpp	/^AMCLLaser::SetModelLikelihoodField(double z_hit,$/;"	f	class:AMCLLaser
+SetModelLikelihoodFieldProb	src/amcl/sensors/amcl_laser.cpp	/^AMCLLaser::SetModelLikelihoodFieldProb(double z_hit,$/;"	f	class:AMCLLaser
+SetModelOmni	src/amcl/sensors/amcl_odom.cpp	/^AMCLOdom::SetModelOmni(double alpha1, $/;"	f	class:AMCLOdom
+SetupGUI	src/amcl/sensors/amcl_sensor.cpp	/^void AMCLSensor::SetupGUI(rtk_canvas_t *canvas, rtk_fig_t *robot_fig)$/;"	f	class:AMCLSensor
+ShutdownGUI	src/amcl/sensors/amcl_sensor.cpp	/^void AMCLSensor::ShutdownGUI(rtk_canvas_t *canvas, rtk_fig_t *robot_fig)$/;"	f	class:AMCLSensor
+TestBasicLocalization	test/basic_localization.py	/^class TestBasicLocalization(unittest.TestCase):$/;"	c
+TransformListenerWrapper	src/amcl_node.cpp	/^    struct TransformListenerWrapper : public tf::TransformListener$/;"	s	class:AmclNode	file:
+USAGE	src/amcl_node.cpp	274;"	d	file:
+UpdateAction	src/amcl/sensors/amcl_odom.cpp	/^bool AMCLOdom::UpdateAction(pf_t *pf, AMCLSensorData *data)$/;"	f	class:AMCLOdom
+UpdateAction	src/amcl/sensors/amcl_sensor.cpp	/^bool AMCLSensor::UpdateAction(pf_t *pf, AMCLSensorData *data)$/;"	f	class:AMCLSensor
+UpdateGUI	src/amcl/sensors/amcl_sensor.cpp	/^void AMCLSensor::UpdateGUI(rtk_canvas_t *canvas, rtk_fig_t *robot_fig, AMCLSensorData *data)$/;"	f	class:AMCLSensor
+UpdateSensor	src/amcl/sensors/amcl_laser.cpp	/^bool AMCLLaser::UpdateSensor(pf_t *pf, AMCLSensorData *data)$/;"	f	class:AMCLLaser
+UpdateSensor	src/amcl/sensors/amcl_sensor.cpp	/^bool AMCLSensor::UpdateSensor(pf_t *pf, AMCLSensorData *data)$/;"	f	class:AMCLSensor
+__init__	test/set_pose.py	/^    def __init__(self, pose, stamp, publish_time):$/;"	m	class:PoseSetter
+_pf_sample_set_t	include/amcl/pf/pf.h	/^typedef struct _pf_sample_set_t$/;"	s
+_pf_t	include/amcl/pf/pf.h	/^typedef struct _pf_t$/;"	s
+a_thresh_	src/amcl_node.cpp	/^    double d_thresh_, a_thresh_;$/;"	m	class:AmclNode	file:
+alpha1	include/amcl/sensors/amcl_odom.h	/^  private: double alpha1, alpha2, alpha3, alpha4, alpha5;$/;"	m	class:amcl::AMCLOdom
+alpha1_	src/amcl_node.cpp	/^    double alpha1_, alpha2_, alpha3_, alpha4_, alpha5_;$/;"	m	class:AmclNode	file:
+alpha2	include/amcl/sensors/amcl_odom.h	/^  private: double alpha1, alpha2, alpha3, alpha4, alpha5;$/;"	m	class:amcl::AMCLOdom
+alpha2_	src/amcl_node.cpp	/^    double alpha1_, alpha2_, alpha3_, alpha4_, alpha5_;$/;"	m	class:AmclNode	file:
+alpha3	include/amcl/sensors/amcl_odom.h	/^  private: double alpha1, alpha2, alpha3, alpha4, alpha5;$/;"	m	class:amcl::AMCLOdom
+alpha3_	src/amcl_node.cpp	/^    double alpha1_, alpha2_, alpha3_, alpha4_, alpha5_;$/;"	m	class:AmclNode	file:
+alpha4	include/amcl/sensors/amcl_odom.h	/^  private: double alpha1, alpha2, alpha3, alpha4, alpha5;$/;"	m	class:amcl::AMCLOdom
+alpha4_	src/amcl_node.cpp	/^    double alpha1_, alpha2_, alpha3_, alpha4_, alpha5_;$/;"	m	class:AmclNode	file:
+alpha5	include/amcl/sensors/amcl_odom.h	/^  private: double alpha1, alpha2, alpha3, alpha4, alpha5;$/;"	m	class:amcl::AMCLOdom
+alpha5_	src/amcl_node.cpp	/^    double alpha1_, alpha2_, alpha3_, alpha4_, alpha5_;$/;"	m	class:AmclNode	file:
+alpha_fast	include/amcl/pf/pf.h	/^  double alpha_slow, alpha_fast;$/;"	m	struct:_pf_t
+alpha_fast_	src/amcl_node.cpp	/^    double alpha_slow_, alpha_fast_;$/;"	m	class:AmclNode	file:
+alpha_slow	include/amcl/pf/pf.h	/^  double alpha_slow, alpha_fast;$/;"	m	struct:_pf_t
+alpha_slow_	src/amcl_node.cpp	/^    double alpha_slow_, alpha_fast_;$/;"	m	class:AmclNode	file:
+amcl	include/amcl/sensors/amcl_laser.h	/^namespace amcl$/;"	n
+amcl	include/amcl/sensors/amcl_odom.h	/^namespace amcl$/;"	n
+amcl	include/amcl/sensors/amcl_sensor.h	/^namespace amcl$/;"	n
+amcl_hyp_t	src/amcl_node.cpp	/^} amcl_hyp_t;$/;"	t	typeref:struct:__anon11	file:
+amcl_node_ptr	src/amcl_node.cpp	/^boost::shared_ptr<AmclNode> amcl_node_ptr;$/;"	v
+angle_diff	src/amcl/sensors/amcl_odom.cpp	/^angle_diff(double a, double b)$/;"	f	file:
+angle_diff	src/amcl_node.cpp	/^angle_diff(double a, double b)$/;"	f	file:
+applyInitialPose	src/amcl_node.cpp	/^AmclNode::applyInitialPose()$/;"	f	class:AmclNode
+bag_scan_period_	src/amcl_node.cpp	/^    ros::WallDuration bag_scan_period_;$/;"	m	class:AmclNode	file:
+base_frame_id_	src/amcl_node.cpp	/^    std::string base_frame_id_;$/;"	m	class:AmclNode	file:
+beam_skip_distance	include/amcl/sensors/amcl_laser.h	/^  private: double beam_skip_distance; $/;"	m	class:amcl::AMCLLaser
+beam_skip_distance_	src/amcl_node.cpp	/^    double beam_skip_distance_, beam_skip_threshold_, beam_skip_error_threshold_;$/;"	m	class:AmclNode	file:
+beam_skip_error_threshold	include/amcl/sensors/amcl_laser.h	/^  private: double beam_skip_error_threshold;$/;"	m	class:amcl::AMCLLaser
+beam_skip_error_threshold_	src/amcl_node.cpp	/^    double beam_skip_distance_, beam_skip_threshold_, beam_skip_error_threshold_;$/;"	m	class:AmclNode	file:
+beam_skip_threshold	include/amcl/sensors/amcl_laser.h	/^  private: double beam_skip_threshold; $/;"	m	class:amcl::AMCLLaser
+beam_skip_threshold_	src/amcl_node.cpp	/^    double beam_skip_distance_, beam_skip_threshold_, beam_skip_error_threshold_;$/;"	m	class:AmclNode	file:
+c	include/amcl/pf/pf.h	/^  double m[4], c[2][2];$/;"	m	struct:__anon3
+cd	include/amcl/pf/pf_pdf.h	/^  pf_vector_t cd;$/;"	m	struct:__anon1
+cell_radius_	src/amcl/map/map_cspace.cpp	/^    int cell_radius_;$/;"	m	class:CachedDistanceMap	file:
+cells	include/amcl/map/map.h	/^  map_cell_t *cells;$/;"	m	struct:__anon10
+checkLaserReceived	src/amcl_node.cpp	/^AmclNode::checkLaserReceived(const ros::TimerEvent& event)$/;"	f	class:AmclNode
+check_laser_timer_	src/amcl_node.cpp	/^    ros::Timer check_laser_timer_;$/;"	m	class:AmclNode	file:
+chi_outlier	include/amcl/sensors/amcl_laser.h	/^  private: double chi_outlier;$/;"	m	class:amcl::AMCLLaser
+children	include/amcl/pf/pf_kdtree.h	/^  struct pf_kdtree_node *children[2];$/;"	m	struct:pf_kdtree_node	typeref:struct:pf_kdtree_node::pf_kdtree_node
+cloud_pub_interval	src/amcl_node.cpp	/^    ros::Duration cloud_pub_interval;$/;"	m	class:AmclNode	file:
+cluster	include/amcl/pf/pf_kdtree.h	/^  int cluster;$/;"	m	struct:pf_kdtree_node
+cluster_count	include/amcl/pf/pf.h	/^  int cluster_count, cluster_max_count;$/;"	m	struct:_pf_sample_set_t
+cluster_max_count	include/amcl/pf/pf.h	/^  int cluster_count, cluster_max_count;$/;"	m	struct:_pf_sample_set_t
+clusters	include/amcl/pf/pf.h	/^  pf_cluster_t *clusters;$/;"	m	struct:_pf_sample_set_t
+compute_angle_diff	test/basic_localization.py	/^    def compute_angle_diff(self):$/;"	m	class:TestBasicLocalization
+configuration_mutex_	src/amcl_node.cpp	/^    boost::recursive_mutex configuration_mutex_;$/;"	m	class:AmclNode	file:
+converged	include/amcl/pf/pf.h	/^  int converged; $/;"	m	struct:_pf_sample_set_t
+converged	include/amcl/pf/pf.h	/^  int converged; $/;"	m	struct:_pf_t
+convertMap	src/amcl_node.cpp	/^AmclNode::convertMap( const nav_msgs::OccupancyGrid& map_msg )$/;"	f	class:AmclNode
+count	include/amcl/pf/pf.h	/^  int count;$/;"	m	struct:__anon3
+cov	include/amcl/pf/pf.h	/^  pf_matrix_t cov;$/;"	m	struct:__anon3
+cov	include/amcl/pf/pf.h	/^  pf_matrix_t cov;$/;"	m	struct:_pf_sample_set_t
+cr	include/amcl/pf/pf_pdf.h	/^  pf_matrix_t cr;$/;"	m	struct:__anon1
+current_set	include/amcl/pf/pf.h	/^  int current_set;$/;"	m	struct:_pf_t
+cx	include/amcl/pf/pf_pdf.h	/^  pf_matrix_t cx;$/;"	m	struct:__anon1
+cxdet	include/amcl/pf/pf_pdf.h	/^  double cxdet;$/;"	m	struct:__anon1
+d_thresh_	src/amcl_node.cpp	/^    double d_thresh_, a_thresh_;$/;"	m	class:AmclNode	file:
+default_config_	src/amcl_node.cpp	/^    amcl::AMCLConfig default_config_;$/;"	m	class:AmclNode	file:
+delta	include/amcl/sensors/amcl_odom.h	/^  public: pf_vector_t delta;$/;"	m	class:amcl::AMCLOdomData
+depth	include/amcl/pf/pf_kdtree.h	/^  int leaf, depth;$/;"	m	struct:pf_kdtree_node
+dist_threshold	include/amcl/pf/pf.h	/^  double dist_threshold; \/\/distance threshold in each axis over which the pf is considered to not be converged$/;"	m	struct:_pf_t
+distances_	src/amcl/map/map_cspace.cpp	/^    double** distances_;$/;"	m	class:CachedDistanceMap	file:
+do_beamskip	include/amcl/sensors/amcl_laser.h	/^  private: bool do_beamskip; $/;"	m	class:amcl::AMCLLaser
+do_beamskip_	src/amcl_node.cpp	/^    bool do_beamskip_;$/;"	m	class:AmclNode	file:
+dsrv_	src/amcl_node.cpp	/^    dynamic_reconfigure::Server<amcl::AMCLConfig> *dsrv_;$/;"	m	class:AmclNode	file:
+eigen_decomposition	src/amcl/pf/eig3.c	/^void eigen_decomposition(double A[n][n], double V[n][n], double d[n]) {$/;"	f
+enqueue	src/amcl/map/map_cspace.cpp	/^void enqueue(map_t* map, unsigned int i, unsigned int j, $/;"	f
+first_map_only_	src/amcl_node.cpp	/^    bool first_map_only_;$/;"	m	class:AmclNode	file:
+first_map_received_	src/amcl_node.cpp	/^    bool first_map_received_;$/;"	m	class:AmclNode	file:
+first_reconfigure_call_	src/amcl_node.cpp	/^    bool first_reconfigure_call_;$/;"	m	class:AmclNode	file:
+frame_to_laser_	src/amcl_node.cpp	/^    std::map< std::string, int > frame_to_laser_;$/;"	m	class:AmclNode	file:
+freeMapDependentMemory	src/amcl_node.cpp	/^AmclNode::freeMapDependentMemory()$/;"	f	class:AmclNode
+free_space_indices	src/amcl_node.cpp	/^    static std::vector<std::pair<int,int> > free_space_indices;$/;"	m	class:AmclNode	file:
+free_space_indices	src/amcl_node.cpp	/^std::vector<std::pair<int,int> > AmclNode::free_space_indices;$/;"	m	class:AmclNode	file:
+gen	cfg/AMCL.cfg	/^gen = ParameterGenerator()$/;"	v
+getBuffer	src/amcl_node.cpp	/^      inline tf2_ros::Buffer &getBuffer() {return tf2_buffer_;}$/;"	f	struct:AmclNode::TransformListenerWrapper
+getOdomPose	src/amcl_node.cpp	/^AmclNode::getOdomPose(tf::Stamped<tf::Pose>& odom_pose,$/;"	f	class:AmclNode
+getYaw	src/amcl_node.cpp	/^AmclNode::getYaw(tf::Pose& t)$/;"	f	class:AmclNode
+get_distance_map	src/amcl/map/map_cspace.cpp	/^get_distance_map(double scale, double max_dist)$/;"	f
+globalLocalizationCallback	src/amcl_node.cpp	/^AmclNode::globalLocalizationCallback(std_srvs::Empty::Request& req,$/;"	f	class:AmclNode
+global_frame_id_	src/amcl_node.cpp	/^    std::string global_frame_id_;$/;"	m	class:AmclNode	file:
+global_loc_srv_	src/amcl_node.cpp	/^    ros::ServiceServer global_loc_srv_;$/;"	m	class:AmclNode	file:
+gui_publish_period	src/amcl_node.cpp	/^    ros::Duration gui_publish_period;$/;"	m	class:AmclNode	file:
+handleInitialPoseMessage	src/amcl_node.cpp	/^AmclNode::handleInitialPoseMessage(const geometry_msgs::PoseWithCovarianceStamped& msg)$/;"	f	class:AmclNode
+handleMapMessage	src/amcl_node.cpp	/^AmclNode::handleMapMessage(const nav_msgs::OccupancyGrid& msg)$/;"	f	class:AmclNode
+hypot2	src/amcl/pf/eig3.c	/^static double hypot2(double x, double y) {$/;"	f	file:
+i_	src/amcl/map/map_cspace.cpp	/^    unsigned int i_, j_;$/;"	m	class:CellData	file:
+init_cov_	src/amcl_node.cpp	/^    double init_cov_[3];$/;"	m	class:AmclNode	file:
+init_pose_	src/amcl_node.cpp	/^    double init_pose_[3];$/;"	m	class:AmclNode	file:
+initialPoseReceived	src/amcl_node.cpp	/^AmclNode::initialPoseReceived(const geometry_msgs::PoseWithCovarianceStampedConstPtr& msg)$/;"	f	class:AmclNode
+initial_pose_hyp_	src/amcl_node.cpp	/^    amcl_hyp_t* initial_pose_hyp_;$/;"	m	class:AmclNode	file:
+initial_pose_sub_	src/amcl_node.cpp	/^    ros::Subscriber initial_pose_sub_;$/;"	m	class:AmclNode	file:
+initial_pose_sub_old_	src/amcl_node.cpp	/^    ros::Subscriber initial_pose_sub_old_;$/;"	m	class:AmclNode	file:
+is_action	include/amcl/sensors/amcl_sensor.h	/^  public: bool is_action;$/;"	m	class:amcl::AMCLSensor
+j_	src/amcl/map/map_cspace.cpp	/^    unsigned int i_, j_;$/;"	m	class:CellData	file:
+kdtree	include/amcl/pf/pf.h	/^  pf_kdtree_t *kdtree;$/;"	m	struct:_pf_sample_set_t
+key	include/amcl/pf/pf_kdtree.h	/^  int key[3];$/;"	m	struct:pf_kdtree_node
+lambda_short	include/amcl/sensors/amcl_laser.h	/^  private: double lambda_short;$/;"	m	class:amcl::AMCLLaser
+lambda_short_	src/amcl_node.cpp	/^    double z_hit_, z_short_, z_max_, z_rand_, sigma_hit_, lambda_short_;$/;"	m	class:AmclNode	file:
+laserReceived	src/amcl_node.cpp	/^AmclNode::laserReceived(const sensor_msgs::LaserScanConstPtr& laser_scan)$/;"	f	class:AmclNode
+laser_	src/amcl_node.cpp	/^    AMCLLaser* laser_;$/;"	m	class:AmclNode	file:
+laser_check_interval_	src/amcl_node.cpp	/^    ros::Duration laser_check_interval_;$/;"	m	class:AmclNode	file:
+laser_likelihood_max_dist_	src/amcl_node.cpp	/^    double laser_likelihood_max_dist_;$/;"	m	class:AmclNode	file:
+laser_max_range_	src/amcl_node.cpp	/^    double laser_max_range_;$/;"	m	class:AmclNode	file:
+laser_min_range_	src/amcl_node.cpp	/^    double laser_min_range_;$/;"	m	class:AmclNode	file:
+laser_model_t	include/amcl/sensors/amcl_laser.h	/^} laser_model_t;$/;"	t	namespace:amcl	typeref:enum:amcl::__anon7
+laser_model_type_	src/amcl_node.cpp	/^    laser_model_t laser_model_type_;$/;"	m	class:AmclNode	file:
+laser_pose	include/amcl/sensors/amcl_laser.h	/^  private: pf_vector_t laser_pose;$/;"	m	class:amcl::AMCLLaser
+laser_scan_filter_	src/amcl_node.cpp	/^    tf::MessageFilter<sensor_msgs::LaserScan>* laser_scan_filter_;$/;"	m	class:AmclNode	file:
+laser_scan_sub_	src/amcl_node.cpp	/^    message_filters::Subscriber<sensor_msgs::LaserScan>* laser_scan_sub_;$/;"	m	class:AmclNode	file:
+lasers_	src/amcl_node.cpp	/^    std::vector< AMCLLaser* > lasers_;$/;"	m	class:AmclNode	file:
+lasers_update_	src/amcl_node.cpp	/^    std::vector< bool > lasers_update_;$/;"	m	class:AmclNode	file:
+last_cloud_pub_time	src/amcl_node.cpp	/^    ros::Time last_cloud_pub_time;$/;"	m	class:AmclNode	file:
+last_laser_received_ts_	src/amcl_node.cpp	/^    ros::Time last_laser_received_ts_;$/;"	m	class:AmclNode	file:
+last_published_pose	src/amcl_node.cpp	/^    geometry_msgs::PoseWithCovarianceStamped last_published_pose;$/;"	m	class:AmclNode	file:
+latest_odom_pose_	src/amcl_node.cpp	/^    tf::Stamped<tf::Pose> latest_odom_pose_;$/;"	m	class:AmclNode	file:
+latest_tf_	src/amcl_node.cpp	/^    tf::Transform latest_tf_;$/;"	m	class:AmclNode	file:
+latest_tf_valid_	src/amcl_node.cpp	/^    bool latest_tf_valid_;$/;"	m	class:AmclNode	file:
+leaf	include/amcl/pf/pf_kdtree.h	/^  int leaf, depth;$/;"	m	struct:pf_kdtree_node
+leaf_count	include/amcl/pf/pf_kdtree.h	/^  int leaf_count;$/;"	m	struct:__anon4
+lmt	cfg/AMCL.cfg	/^lmt = gen.enum([gen.const("beam_const", str_t, "beam", "Use beam laser model"), gen.const("likelihood_field_const", str_t, "likelihood_field", "Use likelihood_field laser model")], "Laser Models")$/;"	v
+m	include/amcl/pf/pf.h	/^  double m[4], c[2][2];$/;"	m	struct:__anon3
+m	include/amcl/pf/pf_vector.h	/^  double m[3][3];$/;"	m	struct:__anon6
+m_force_update	src/amcl_node.cpp	/^    bool m_force_update;  \/\/ used to temporarily let amcl update samples even when no motion occurs...$/;"	m	class:AmclNode	file:
+main	src/amcl_node.cpp	/^main(int argc, char** argv)$/;"	f
+map	include/amcl/sensors/amcl_laser.h	/^  private: map_t *map;$/;"	m	class:amcl::AMCLLaser
+mapReceived	src/amcl_node.cpp	/^AmclNode::mapReceived(const nav_msgs::OccupancyGridConstPtr& msg)$/;"	f	class:AmclNode
+map_	src/amcl/map/map_cspace.cpp	/^    map_t* map_;$/;"	m	class:CellData	file:
+map_	src/amcl_node.cpp	/^    map_t* map_;$/;"	m	class:AmclNode	file:
+map_alloc	src/amcl/map/map.c	/^map_t *map_alloc(void)$/;"	f
+map_calc_range	src/amcl/map/map_range.c	/^double map_calc_range(map_t *map, double ox, double oy, double oa, double max_range)$/;"	f
+map_cell_t	include/amcl/map/map.h	/^} map_cell_t;$/;"	t	typeref:struct:__anon9
+map_draw_cspace	src/amcl/map/map_draw.c	/^void map_draw_cspace(map_t *map, rtk_fig_t *fig)$/;"	f
+map_draw_occ	src/amcl/map/map_draw.c	/^void map_draw_occ(map_t *map, rtk_fig_t *fig)$/;"	f
+map_draw_wifi	src/amcl/map/map_draw.c	/^void map_draw_wifi(map_t *map, rtk_fig_t *fig, int index)$/;"	f
+map_free	src/amcl/map/map.c	/^void map_free(map_t *map)$/;"	f
+map_get_cell	src/amcl/map/map.c	/^map_cell_t *map_get_cell(map_t *map, double ox, double oy, double oa)$/;"	f
+map_load_occ	src/amcl/map/map_store.c	/^int map_load_occ(map_t *map, const char *filename, double scale, int negate)$/;"	f
+map_sub_	src/amcl_node.cpp	/^    ros::Subscriber map_sub_;$/;"	m	class:AmclNode	file:
+map_t	include/amcl/map/map.h	/^} map_t;$/;"	t	typeref:struct:__anon10
+map_update_cspace	src/amcl/map/map_cspace.cpp	/^void map_update_cspace(map_t *map, double max_occ_dist)$/;"	f
+mapdata	src/amcl_node.cpp	/^    char* mapdata;$/;"	m	class:AmclNode	file:
+max_beams	include/amcl/sensors/amcl_laser.h	/^  private: int max_beams;$/;"	m	class:amcl::AMCLLaser
+max_beams_	src/amcl_node.cpp	/^    int max_beams_, min_particles_, max_particles_;$/;"	m	class:AmclNode	file:
+max_dist_	src/amcl/map/map_cspace.cpp	/^    double max_dist_;$/;"	m	class:CachedDistanceMap	file:
+max_obs	include/amcl/sensors/amcl_laser.h	/^  private: int max_obs;$/;"	m	class:amcl::AMCLLaser
+max_occ_dist	include/amcl/map/map.h	/^  double max_occ_dist;$/;"	m	struct:__anon10
+max_particles_	src/amcl_node.cpp	/^    int max_beams_, min_particles_, max_particles_;$/;"	m	class:AmclNode	file:
+max_samples	include/amcl/pf/pf.h	/^  int min_samples, max_samples;$/;"	m	struct:_pf_t
+max_samples	include/amcl/sensors/amcl_laser.h	/^  private: int max_samples;$/;"	m	class:amcl::AMCLLaser
+mean	include/amcl/pf/pf.h	/^  pf_vector_t mean;$/;"	m	struct:__anon3
+mean	include/amcl/pf/pf.h	/^  pf_vector_t mean;$/;"	m	struct:_pf_sample_set_t
+min_particles_	src/amcl_node.cpp	/^    int max_beams_, min_particles_, max_particles_;$/;"	m	class:AmclNode	file:
+min_samples	include/amcl/pf/pf.h	/^  int min_samples, max_samples;$/;"	m	struct:_pf_t
+model_type	include/amcl/sensors/amcl_laser.h	/^  private: laser_model_t model_type;$/;"	m	class:amcl::AMCLLaser
+model_type	include/amcl/sensors/amcl_odom.h	/^  private: odom_model_t model_type;$/;"	m	class:amcl::AMCLOdom
+n	src/amcl/pf/eig3.c	/^static int n = 3;$/;"	v	file:
+nh_	src/amcl_node.cpp	/^    ros::NodeHandle nh_;$/;"	m	class:AmclNode	file:
+node_count	include/amcl/pf/pf_kdtree.h	/^  int node_count, node_max_count;$/;"	m	struct:__anon4
+node_max_count	include/amcl/pf/pf_kdtree.h	/^  int node_count, node_max_count;$/;"	m	struct:__anon4
+nodes	include/amcl/pf/pf_kdtree.h	/^  pf_kdtree_node_t *nodes;$/;"	m	struct:__anon4
+nomotionUpdateCallback	src/amcl_node.cpp	/^AmclNode::nomotionUpdateCallback(std_srvs::Empty::Request& req,$/;"	f	class:AmclNode
+nomotion_update_srv_	src/amcl_node.cpp	/^    ros::ServiceServer nomotion_update_srv_; \/\/to let amcl update samples without requiring motion$/;"	m	class:AmclNode	file:
+normalize	src/amcl/sensors/amcl_odom.cpp	/^normalize(double z)$/;"	f	file:
+normalize	src/amcl_node.cpp	/^normalize(double z)$/;"	f	file:
+occ_dist	include/amcl/map/map.h	/^  double occ_dist;$/;"	m	struct:__anon9
+occ_state	include/amcl/map/map.h	/^  int occ_state;$/;"	m	struct:__anon9
+odom_	src/amcl_node.cpp	/^    AMCLOdom* odom_;$/;"	m	class:AmclNode	file:
+odom_frame_id_	src/amcl_node.cpp	/^    std::string odom_frame_id_;$/;"	m	class:AmclNode	file:
+odom_model_t	include/amcl/sensors/amcl_odom.h	/^} odom_model_t;$/;"	t	namespace:amcl	typeref:enum:amcl::__anon8
+odom_model_type_	src/amcl_node.cpp	/^    odom_model_t odom_model_type_;$/;"	m	class:AmclNode	file:
+odt	cfg/AMCL.cfg	/^odt = gen.enum([gen.const("diff_const", str_t, "diff", "Use diff odom model"),$/;"	v
+operator <	src/amcl/map/map_cspace.cpp	/^bool operator<(const CellData& a, const CellData& b)$/;"	f
+origin_x	include/amcl/map/map.h	/^  double origin_x, origin_y;$/;"	m	struct:__anon10
+origin_y	include/amcl/map/map.h	/^  double origin_x, origin_y;$/;"	m	struct:__anon10
+particlecloud_pub_	src/amcl_node.cpp	/^    ros::Publisher particlecloud_pub_;$/;"	m	class:AmclNode	file:
+peer_subscribe	test/set_pose.py	/^    def peer_subscribe(self, topic_name, topic_publish, peer_publish):$/;"	m	class:PoseSetter
+pf_	src/amcl_node.cpp	/^    pf_t *pf_;$/;"	m	class:AmclNode	file:
+pf_action_model_fn_t	include/amcl/pf/pf.h	/^typedef void (*pf_action_model_fn_t) (void *action_data, $/;"	t
+pf_alloc	src/amcl/pf/pf.c	/^pf_t *pf_alloc(int min_samples, int max_samples,$/;"	f
+pf_cluster_stats	src/amcl/pf/pf.c	/^void pf_cluster_stats(pf_t *pf, pf_sample_set_t *set)$/;"	f
+pf_cluster_t	include/amcl/pf/pf.h	/^} pf_cluster_t;$/;"	t	typeref:struct:__anon3
+pf_draw_cep_stats	src/amcl/pf/pf_draw.c	/^void pf_draw_cep_stats(pf_t *pf, rtk_fig_t *fig)$/;"	f
+pf_draw_cluster_stats	src/amcl/pf/pf_draw.c	/^void pf_draw_cluster_stats(pf_t *pf, rtk_fig_t *fig)$/;"	f
+pf_draw_hist	src/amcl/pf/pf_draw.c	/^void pf_draw_hist(pf_t *pf, rtk_fig_t *fig)$/;"	f
+pf_draw_samples	src/amcl/pf/pf_draw.c	/^void pf_draw_samples(pf_t *pf, rtk_fig_t *fig, int max_samples)$/;"	f
+pf_err_	src/amcl_node.cpp	/^    double pf_err_, pf_z_;$/;"	m	class:AmclNode	file:
+pf_free	src/amcl/pf/pf.c	/^void pf_free(pf_t *pf)$/;"	f
+pf_get_cep_stats	src/amcl/pf/pf.c	/^void pf_get_cep_stats(pf_t *pf, pf_vector_t *mean, double *var)$/;"	f
+pf_get_cluster_stats	src/amcl/pf/pf.c	/^int pf_get_cluster_stats(pf_t *pf, int clabel, double *weight,$/;"	f
+pf_init	src/amcl/pf/pf.c	/^void pf_init(pf_t *pf, pf_vector_t mean, pf_matrix_t cov)$/;"	f
+pf_init_	src/amcl_node.cpp	/^    bool pf_init_;$/;"	m	class:AmclNode	file:
+pf_init_converged	src/amcl/pf/pf.c	/^void pf_init_converged(pf_t *pf){$/;"	f
+pf_init_model	src/amcl/pf/pf.c	/^void pf_init_model(pf_t *pf, pf_init_model_fn_t init_fn, void *init_data)$/;"	f
+pf_init_model_fn_t	include/amcl/pf/pf.h	/^typedef pf_vector_t (*pf_init_model_fn_t) (void *init_data);$/;"	t
+pf_kdtree_alloc	src/amcl/pf/pf_kdtree.c	/^pf_kdtree_t *pf_kdtree_alloc(int max_size)$/;"	f
+pf_kdtree_clear	src/amcl/pf/pf_kdtree.c	/^void pf_kdtree_clear(pf_kdtree_t *self)$/;"	f
+pf_kdtree_cluster	src/amcl/pf/pf_kdtree.c	/^void pf_kdtree_cluster(pf_kdtree_t *self)$/;"	f
+pf_kdtree_cluster_node	src/amcl/pf/pf_kdtree.c	/^void pf_kdtree_cluster_node(pf_kdtree_t *self, pf_kdtree_node_t *node, int depth)$/;"	f
+pf_kdtree_draw	src/amcl/pf/pf_kdtree.c	/^void pf_kdtree_draw(pf_kdtree_t *self, rtk_fig_t *fig)$/;"	f
+pf_kdtree_draw_node	src/amcl/pf/pf_kdtree.c	/^void pf_kdtree_draw_node(pf_kdtree_t *self, pf_kdtree_node_t *node, rtk_fig_t *fig)$/;"	f
+pf_kdtree_equal	src/amcl/pf/pf_kdtree.c	/^int pf_kdtree_equal(pf_kdtree_t *self, int key_a[], int key_b[])$/;"	f
+pf_kdtree_find_node	src/amcl/pf/pf_kdtree.c	/^pf_kdtree_node_t *pf_kdtree_find_node(pf_kdtree_t *self, pf_kdtree_node_t *node, int key[])$/;"	f
+pf_kdtree_free	src/amcl/pf/pf_kdtree.c	/^void pf_kdtree_free(pf_kdtree_t *self)$/;"	f
+pf_kdtree_get_cluster	src/amcl/pf/pf_kdtree.c	/^int pf_kdtree_get_cluster(pf_kdtree_t *self, pf_vector_t pose)$/;"	f
+pf_kdtree_get_prob	src/amcl/pf/pf_kdtree.c	/^double pf_kdtree_get_prob(pf_kdtree_t *self, pf_vector_t pose)$/;"	f
+pf_kdtree_insert	src/amcl/pf/pf_kdtree.c	/^void pf_kdtree_insert(pf_kdtree_t *self, pf_vector_t pose, double value)$/;"	f
+pf_kdtree_insert_node	src/amcl/pf/pf_kdtree.c	/^pf_kdtree_node_t *pf_kdtree_insert_node(pf_kdtree_t *self, pf_kdtree_node_t *parent,$/;"	f
+pf_kdtree_node	include/amcl/pf/pf_kdtree.h	/^typedef struct pf_kdtree_node$/;"	s
+pf_kdtree_node_t	include/amcl/pf/pf_kdtree.h	/^} pf_kdtree_node_t;$/;"	t	typeref:struct:pf_kdtree_node
+pf_kdtree_t	include/amcl/pf/pf_kdtree.h	/^} pf_kdtree_t;$/;"	t	typeref:struct:__anon4
+pf_matrix_finite	src/amcl/pf/pf_vector.c	/^int pf_matrix_finite(pf_matrix_t a)$/;"	f
+pf_matrix_fprintf	src/amcl/pf/pf_vector.c	/^void pf_matrix_fprintf(pf_matrix_t a, FILE *file, const char *fmt)$/;"	f
+pf_matrix_t	include/amcl/pf/pf_vector.h	/^} pf_matrix_t;$/;"	t	typeref:struct:__anon6
+pf_matrix_unitary	src/amcl/pf/pf_vector.c	/^void pf_matrix_unitary(pf_matrix_t *r, pf_matrix_t *d, pf_matrix_t a)$/;"	f
+pf_matrix_zero	src/amcl/pf/pf_vector.c	/^pf_matrix_t pf_matrix_zero()$/;"	f
+pf_odom_pose_	src/amcl_node.cpp	/^    pf_vector_t pf_odom_pose_;$/;"	m	class:AmclNode	file:
+pf_pdf_gaussian_alloc	src/amcl/pf/pf_pdf.c	/^pf_pdf_gaussian_t *pf_pdf_gaussian_alloc(pf_vector_t x, pf_matrix_t cx)$/;"	f
+pf_pdf_gaussian_free	src/amcl/pf/pf_pdf.c	/^void pf_pdf_gaussian_free(pf_pdf_gaussian_t *pdf)$/;"	f
+pf_pdf_gaussian_sample	src/amcl/pf/pf_pdf.c	/^pf_vector_t pf_pdf_gaussian_sample(pf_pdf_gaussian_t *pdf)$/;"	f
+pf_pdf_gaussian_t	include/amcl/pf/pf_pdf.h	/^} pf_pdf_gaussian_t;$/;"	t	typeref:struct:__anon1
+pf_pdf_seed	src/amcl/pf/pf_pdf.c	/^static unsigned int pf_pdf_seed;$/;"	v	file:
+pf_pose_cov	src/amcl_node.cpp	/^  pf_matrix_t pf_pose_cov;$/;"	m	struct:__anon11	file:
+pf_pose_mean	src/amcl_node.cpp	/^  pf_vector_t pf_pose_mean;$/;"	m	struct:__anon11	file:
+pf_ran_gaussian	src/amcl/pf/pf_pdf.c	/^double pf_ran_gaussian(double sigma)$/;"	f
+pf_resample_limit	src/amcl/pf/pf.c	/^int pf_resample_limit(pf_t *pf, int k)$/;"	f
+pf_sample_set_t	include/amcl/pf/pf.h	/^} pf_sample_set_t;$/;"	t	typeref:struct:_pf_sample_set_t
+pf_sample_t	include/amcl/pf/pf.h	/^} pf_sample_t;$/;"	t	typeref:struct:__anon2
+pf_sensor_model_fn_t	include/amcl/pf/pf.h	/^typedef double (*pf_sensor_model_fn_t) (void *sensor_data, $/;"	t
+pf_t	include/amcl/pf/pf.h	/^} pf_t;$/;"	t	typeref:struct:_pf_t
+pf_update_action	src/amcl/pf/pf.c	/^void pf_update_action(pf_t *pf, pf_action_model_fn_t action_fn, void *action_data)$/;"	f
+pf_update_converged	src/amcl/pf/pf.c	/^int pf_update_converged(pf_t *pf)$/;"	f
+pf_update_resample	src/amcl/pf/pf.c	/^void pf_update_resample(pf_t *pf)$/;"	f
+pf_update_sensor	src/amcl/pf/pf.c	/^void pf_update_sensor(pf_t *pf, pf_sensor_model_fn_t sensor_fn, void *sensor_data)$/;"	f
+pf_vector_add	src/amcl/pf/pf_vector.c	/^pf_vector_t pf_vector_add(pf_vector_t a, pf_vector_t b)$/;"	f
+pf_vector_coord_add	src/amcl/pf/pf_vector.c	/^pf_vector_t pf_vector_coord_add(pf_vector_t a, pf_vector_t b)$/;"	f
+pf_vector_coord_sub	src/amcl/pf/pf_vector.c	/^pf_vector_t pf_vector_coord_sub(pf_vector_t a, pf_vector_t b)$/;"	f
+pf_vector_finite	src/amcl/pf/pf_vector.c	/^int pf_vector_finite(pf_vector_t a)$/;"	f
+pf_vector_fprintf	src/amcl/pf/pf_vector.c	/^void pf_vector_fprintf(pf_vector_t a, FILE *file, const char *fmt)$/;"	f
+pf_vector_sub	src/amcl/pf/pf_vector.c	/^pf_vector_t pf_vector_sub(pf_vector_t a, pf_vector_t b)$/;"	f
+pf_vector_t	include/amcl/pf/pf_vector.h	/^} pf_vector_t;$/;"	t	typeref:struct:__anon5
+pf_vector_zero	src/amcl/pf/pf_vector.c	/^pf_vector_t pf_vector_zero()$/;"	f
+pf_z_	src/amcl_node.cpp	/^    double pf_err_, pf_z_;$/;"	m	class:AmclNode	file:
+pivot_dim	include/amcl/pf/pf_kdtree.h	/^  int pivot_dim;$/;"	m	struct:pf_kdtree_node
+pivot_value	include/amcl/pf/pf_kdtree.h	/^  double pivot_value;$/;"	m	struct:pf_kdtree_node
+pop_err	include/amcl/pf/pf.h	/^  double pop_err, pop_z;$/;"	m	struct:_pf_t
+pop_z	include/amcl/pf/pf.h	/^  double pop_err, pop_z;$/;"	m	struct:_pf_t
+pose	include/amcl/pf/pf.h	/^  pf_vector_t pose;$/;"	m	struct:__anon2
+pose	include/amcl/sensors/amcl_odom.h	/^  public: pf_vector_t pose;$/;"	m	class:amcl::AMCLOdomData
+pose	include/amcl/sensors/amcl_sensor.h	/^  public: pf_vector_t pose;$/;"	m	class:amcl::AMCLSensor
+pose	test/set_pose.py	/^    pose = map(float, rospy.myargv()[1:4])$/;"	v	class:PoseSetter
+pose_pub_	src/amcl_node.cpp	/^    ros::Publisher pose_pub_;$/;"	m	class:AmclNode	file:
+private_nh_	src/amcl_node.cpp	/^    ros::NodeHandle private_nh_;$/;"	m	class:AmclNode	file:
+pub	test/set_pose.py	/^    pub = rospy.Publisher("initialpose", PoseWithCovarianceStamped, PoseSetter(pose, stamp=t_stamp, publish_time=t_publish), queue_size=1)$/;"	v	class:PoseSetter
+random_pose_data	include/amcl/pf/pf.h	/^  void *random_pose_data;$/;"	m	struct:_pf_t
+random_pose_fn	include/amcl/pf/pf.h	/^  pf_init_model_fn_t random_pose_fn;$/;"	m	struct:_pf_t
+range_count	include/amcl/sensors/amcl_laser.h	/^  public: int range_count;$/;"	m	class:amcl::AMCLLaserData
+range_max	include/amcl/sensors/amcl_laser.h	/^  public: double range_max;$/;"	m	class:amcl::AMCLLaserData
+ranges	include/amcl/sensors/amcl_laser.h	/^  public: double (*ranges)[2];$/;"	m	class:amcl::AMCLLaserData
+reallocTempData	src/amcl/sensors/amcl_laser.cpp	/^void AMCLLaser::reallocTempData(int new_max_samples, int new_max_obs){$/;"	f	class:AMCLLaser
+reconfigureCB	src/amcl_node.cpp	/^void AmclNode::reconfigureCB(AMCLConfig &config, uint32_t level)$/;"	f	class:AmclNode
+requestMap	src/amcl_node.cpp	/^AmclNode::requestMap()$/;"	f	class:AmclNode
+resample_count_	src/amcl_node.cpp	/^    int resample_count_;$/;"	m	class:AmclNode	file:
+resample_interval_	src/amcl_node.cpp	/^    int resample_interval_;$/;"	m	class:AmclNode	file:
+resolution	src/amcl_node.cpp	/^    double resolution;$/;"	m	class:AmclNode	file:
+root	include/amcl/pf/pf_kdtree.h	/^  pf_kdtree_node_t *root;$/;"	m	struct:__anon4
+runFromBag	src/amcl_node.cpp	/^void AmclNode::runFromBag(const std::string &in_bag_fn)$/;"	f	class:AmclNode
+sample_count	include/amcl/pf/pf.h	/^  int sample_count;$/;"	m	struct:_pf_sample_set_t
+samples	include/amcl/pf/pf.h	/^  pf_sample_t *samples;$/;"	m	struct:_pf_sample_set_t
+savePoseToServer	src/amcl_node.cpp	/^void AmclNode::savePoseToServer()$/;"	f	class:AmclNode
+save_pose_last_time	src/amcl_node.cpp	/^    ros::Time save_pose_last_time;$/;"	m	class:AmclNode	file:
+save_pose_period	src/amcl_node.cpp	/^    ros::Duration save_pose_period;$/;"	m	class:AmclNode	file:
+scale	include/amcl/map/map.h	/^  double scale;$/;"	m	struct:__anon10
+scale_	src/amcl/map/map_cspace.cpp	/^    double scale_;$/;"	m	class:CachedDistanceMap	file:
+scan_topic_	src/amcl_node.cpp	/^static const std::string scan_topic_ = "scan";$/;"	v	file:
+sensor	include/amcl/sensors/amcl_sensor.h	/^  public: AMCLSensor *sensor;$/;"	m	class:amcl::AMCLSensorData
+sent_first_transform_	src/amcl_node.cpp	/^    bool sent_first_transform_;$/;"	m	class:AmclNode	file:
+setMapCallback	src/amcl_node.cpp	/^AmclNode::setMapCallback(nav_msgs::SetMap::Request& req,$/;"	f	class:AmclNode
+setUp	test/basic_localization.py	/^    def setUp(self):$/;"	m	class:TestBasicLocalization
+set_map_srv_	src/amcl_node.cpp	/^    ros::ServiceServer set_map_srv_;$/;"	m	class:AmclNode	file:
+sets	include/amcl/pf/pf.h	/^  pf_sample_set_t sets[2];$/;"	m	struct:_pf_t
+sigintHandler	src/amcl_node.cpp	/^void sigintHandler(int sig)$/;"	f
+sigma_hit	include/amcl/sensors/amcl_laser.h	/^  private: double sigma_hit;$/;"	m	class:amcl::AMCLLaser
+sigma_hit_	src/amcl_node.cpp	/^    double z_hit_, z_short_, z_max_, z_rand_, sigma_hit_, lambda_short_;$/;"	m	class:AmclNode	file:
+size	include/amcl/pf/pf_kdtree.h	/^  double size[3];$/;"	m	struct:__anon4
+size_x	include/amcl/map/map.h	/^  int size_x, size_y;$/;"	m	struct:__anon10
+size_y	include/amcl/map/map.h	/^  int size_x, size_y;$/;"	m	struct:__anon10
+src_i_	src/amcl/map/map_cspace.cpp	/^    unsigned int src_i_, src_j_;$/;"	m	class:CellData	file:
+src_j_	src/amcl/map/map_cspace.cpp	/^    unsigned int src_i_, src_j_;$/;"	m	class:CellData	file:
+sx	src/amcl_node.cpp	/^    int sx, sy;$/;"	m	class:AmclNode	file:
+sy	src/amcl_node.cpp	/^    int sx, sy;$/;"	m	class:AmclNode	file:
+t_publish	test/set_pose.py	/^    t_publish = rospy.Time()$/;"	v	class:PoseSetter
+t_stamp	test/set_pose.py	/^    t_stamp = rospy.Time()$/;"	v	class:PoseSetter
+temp_obs	include/amcl/sensors/amcl_laser.h	/^  private: double **temp_obs;$/;"	m	class:amcl::AMCLLaser
+test_basic_localization	test/basic_localization.py	/^    def test_basic_localization(self):$/;"	m	class:TestBasicLocalization
+tf_	src/amcl_node.cpp	/^    TransformListenerWrapper* tf_;$/;"	m	class:AmclNode	file:
+tf_broadcast_	src/amcl_node.cpp	/^    bool tf_broadcast_;$/;"	m	class:AmclNode	file:
+tf_cb	test/basic_localization.py	/^    def tf_cb(self, msg):$/;"	m	class:TestBasicLocalization
+tfb_	src/amcl_node.cpp	/^    tf::TransformBroadcaster* tfb_;$/;"	m	class:AmclNode	file:
+time	include/amcl/sensors/amcl_laser.h	/^  private: double time;$/;"	m	class:amcl::AMCLLaser
+time	include/amcl/sensors/amcl_odom.h	/^  private: double time;$/;"	m	class:amcl::AMCLOdom
+time	include/amcl/sensors/amcl_sensor.h	/^  public: double time;$/;"	m	class:amcl::AMCLSensorData
+tql2	src/amcl/pf/eig3.c	/^static void tql2(double V[n][n], double d[n], double e[n]) {$/;"	f	file:
+transform_tolerance_	src/amcl_node.cpp	/^    ros::Duration transform_tolerance_;$/;"	m	class:AmclNode	file:
+tred2	src/amcl/pf/eig3.c	/^static void tred2(double V[n][n], double d[n], double e[n]) {$/;"	f	file:
+uniformPoseGenerator	src/amcl_node.cpp	/^AmclNode::uniformPoseGenerator(void* arg)$/;"	f	class:AmclNode
+updatePoseFromServer	src/amcl_node.cpp	/^void AmclNode::updatePoseFromServer()$/;"	f	class:AmclNode
+use_map_topic_	src/amcl_node.cpp	/^    bool use_map_topic_;$/;"	m	class:AmclNode	file:
+v	include/amcl/pf/pf_vector.h	/^  double v[3];$/;"	m	struct:__anon5
+value	include/amcl/pf/pf_kdtree.h	/^  double value;$/;"	m	struct:pf_kdtree_node
+w_fast	include/amcl/pf/pf.h	/^  double w_slow, w_fast;$/;"	m	struct:_pf_t
+w_slow	include/amcl/pf/pf.h	/^  double w_slow, w_fast;$/;"	m	struct:_pf_t
+weight	include/amcl/pf/pf.h	/^  double weight;$/;"	m	struct:__anon2
+weight	include/amcl/pf/pf.h	/^  double weight;$/;"	m	struct:__anon3
+weight	src/amcl_node.cpp	/^  double weight;$/;"	m	struct:__anon11	file:
+x	include/amcl/pf/pf_pdf.h	/^  pf_vector_t x;$/;"	m	struct:__anon1
+z_hit	include/amcl/sensors/amcl_laser.h	/^  private: double z_hit;$/;"	m	class:amcl::AMCLLaser
+z_hit_	src/amcl_node.cpp	/^    double z_hit_, z_short_, z_max_, z_rand_, sigma_hit_, lambda_short_;$/;"	m	class:AmclNode	file:
+z_max	include/amcl/sensors/amcl_laser.h	/^  private: double z_max;$/;"	m	class:amcl::AMCLLaser
+z_max_	src/amcl_node.cpp	/^    double z_hit_, z_short_, z_max_, z_rand_, sigma_hit_, lambda_short_;$/;"	m	class:AmclNode	file:
+z_rand	include/amcl/sensors/amcl_laser.h	/^  private: double z_rand;$/;"	m	class:amcl::AMCLLaser
+z_rand_	src/amcl_node.cpp	/^    double z_hit_, z_short_, z_max_, z_rand_, sigma_hit_, lambda_short_;$/;"	m	class:AmclNode	file:
+z_short	include/amcl/sensors/amcl_laser.h	/^  private: double z_short;$/;"	m	class:amcl::AMCLLaser
+z_short_	src/amcl_node.cpp	/^    double z_hit_, z_short_, z_max_, z_rand_, sigma_hit_, lambda_short_;$/;"	m	class:AmclNode	file:
+~AMCLLaser	src/amcl/sensors/amcl_laser.cpp	/^AMCLLaser::~AMCLLaser()$/;"	f	class:AMCLLaser
+~AMCLLaserData	include/amcl/sensors/amcl_laser.h	/^    virtual ~AMCLLaserData() {delete [] ranges;};$/;"	f	class:amcl::AMCLLaserData
+~AMCLSensor	src/amcl/sensors/amcl_sensor.cpp	/^AMCLSensor::~AMCLSensor()$/;"	f	class:AMCLSensor
+~AMCLSensorData	include/amcl/sensors/amcl_sensor.h	/^          virtual ~AMCLSensorData() {}$/;"	f	class:amcl::AMCLSensorData
+~AmclNode	src/amcl_node.cpp	/^AmclNode::~AmclNode()$/;"	f	class:AmclNode
+~CachedDistanceMap	src/amcl/map/map_cspace.cpp	/^    ~CachedDistanceMap()$/;"	f	class:CachedDistanceMap

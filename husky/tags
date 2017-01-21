@@ -1,0 +1,16 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+JOINT_NAMES	husky_control/scripts/stow_ur5	/^JOINT_NAMES = ['ur5_arm_shoulder_pan_joint', 'ur5_arm_shoulder_lift_joint', 'ur5_arm_elbow_joint',$/;"	v
+Q1	husky_control/scripts/stow_ur5	/^Q1 = [1.57,-1.57,0,-1.57,0,0]$/;"	v
+Q2	husky_control/scripts/stow_ur5	/^Q2 = [-1.57,-1.57,0,-1.57,0,0]$/;"	v
+Q3	husky_control/scripts/stow_ur5	/^Q3 = [-1.57,-0.1745,-2.79,-1.57,0,0]$/;"	v
+client	husky_control/scripts/stow_ur5	/^client = None$/;"	v
+main	husky_control/scripts/stow_ur5	/^def main():$/;"	f
+move	husky_control/scripts/stow_ur5	/^def move():$/;"	f
+move_disordered	husky_control/scripts/stow_ur5	/^def move_disordered():$/;"	f
+move_interrupt	husky_control/scripts/stow_ur5	/^def move_interrupt():$/;"	f
+move_repeated	husky_control/scripts/stow_ur5	/^def move_repeated():$/;"	f

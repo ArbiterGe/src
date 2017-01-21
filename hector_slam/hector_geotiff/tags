@@ -1,0 +1,106 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Color	include/hector_geotiff/map_writer_interface.h	/^    Color(unsigned int r, unsigned int g, unsigned int b) : r(r), g(g), b(b) {}$/;"	f	struct:hector_geotiff::MapWriterInterface::Color
+Color	include/hector_geotiff/map_writer_interface.h	/^  struct Color {$/;"	s	class:hector_geotiff::MapWriterInterface
+GeotiffWriter	include/hector_geotiff/geotiff_writer.h	/^class GeotiffWriter : public MapWriterInterface$/;"	c	namespace:hector_geotiff
+GeotiffWriter	src/geotiff_writer/geotiff_writer.cpp	/^GeotiffWriter::GeotiffWriter(bool useCheckerboardCacheIn)$/;"	f	class:hector_geotiff::GeotiffWriter
+MapGenerator	src/geotiff_node.cpp	/^  MapGenerator()$/;"	f	class:hector_geotiff::MapGenerator
+MapGenerator	src/geotiff_node.cpp	/^class MapGenerator$/;"	c	namespace:hector_geotiff	file:
+MapGenerator	src/geotiff_saver.cpp	/^    MapGenerator(const std::string& mapname) : mapname_(mapname)$/;"	f	class:hector_geotiff::MapGenerator
+MapGenerator	src/geotiff_saver.cpp	/^class MapGenerator$/;"	c	namespace:hector_geotiff	file:
+MapWriterInterface	include/hector_geotiff/map_writer_interface.h	/^class MapWriterInterface{$/;"	c	namespace:hector_geotiff
+MapWriterPluginInterface	include/hector_geotiff/map_writer_plugin_interface.h	/^class MapWriterPluginInterface{$/;"	c	namespace:hector_geotiff
+USAGE	src/geotiff_saver.cpp	84;"	d	file:
+_GEOTIFFWRITER_H__	include/hector_geotiff/geotiff_writer.h	30;"	d
+_MAPWRITERINTERFACE_H__	include/hector_geotiff/map_writer_interface.h	30;"	d
+_MAPWRITERPLUGININTERFACE_H__	include/hector_geotiff/map_writer_plugin_interface.h	30;"	d
+app	include/hector_geotiff/geotiff_writer.h	/^  QApplication* app;$/;"	m	class:hector_geotiff::GeotiffWriter
+b	include/hector_geotiff/map_writer_interface.h	/^    unsigned int r,g,b;$/;"	m	struct:hector_geotiff::MapWriterInterface::Color
+cached_map_meta_data_	include/hector_geotiff/geotiff_writer.h	/^  nav_msgs::MapMetaData cached_map_meta_data_;$/;"	m	class:hector_geotiff::GeotiffWriter
+checkerboard_cache	include/hector_geotiff/geotiff_writer.h	/^  QImage checkerboard_cache;$/;"	m	class:hector_geotiff::GeotiffWriter
+drawArrow	src/geotiff_writer/geotiff_writer.cpp	/^void GeotiffWriter::drawArrow(QPainter& painter)$/;"	f	class:hector_geotiff::GeotiffWriter
+drawBackgroundCheckerboard	src/geotiff_writer/geotiff_writer.cpp	/^void GeotiffWriter::drawBackgroundCheckerboard()$/;"	f	class:hector_geotiff::GeotiffWriter
+drawCoordSystem	src/geotiff_writer/geotiff_writer.cpp	/^void GeotiffWriter::drawCoordSystem(QPainter& painter)$/;"	f	class:hector_geotiff::GeotiffWriter
+drawCoords	src/geotiff_writer/geotiff_writer.cpp	/^void GeotiffWriter::drawCoords()$/;"	f	class:hector_geotiff::GeotiffWriter
+drawCross	src/geotiff_writer/geotiff_writer.cpp	/^void GeotiffWriter::drawCross(QPainter& painter, const Eigen::Vector2f& coords)$/;"	f	class:hector_geotiff::GeotiffWriter
+drawMap	src/geotiff_writer/geotiff_writer.cpp	/^void GeotiffWriter::drawMap(const nav_msgs::OccupancyGrid& map, bool draw_explored_space_grid)$/;"	f	class:hector_geotiff::GeotiffWriter
+drawObjectOfInterest	src/geotiff_writer/geotiff_writer.cpp	/^void GeotiffWriter::drawObjectOfInterest(const Eigen::Vector2f& coords, const std::string& txt, const Color& color)$/;"	f	class:hector_geotiff::GeotiffWriter
+drawPath	include/hector_geotiff/geotiff_writer.h	/^  inline virtual void drawPath(const Eigen::Vector3f& start, const std::vector<Eigen::Vector2f>& points){$/;"	f	class:hector_geotiff::GeotiffWriter
+drawPath	include/hector_geotiff/map_writer_interface.h	/^  inline virtual void drawPath(const Eigen::Vector3f& start, const std::vector<Eigen::Vector2f>& points){$/;"	f	class:hector_geotiff::MapWriterInterface
+drawPath	src/geotiff_writer/geotiff_writer.cpp	/^void GeotiffWriter::drawPath(const Eigen::Vector3f& start, const std::vector<Eigen::Vector2f>& points,int color_r, int color_g, int color_b)$/;"	f	class:hector_geotiff::GeotiffWriter
+fake_argc_	include/hector_geotiff/geotiff_writer.h	/^  int fake_argc_;$/;"	m	class:hector_geotiff::GeotiffWriter
+fake_argv_	include/hector_geotiff/geotiff_writer.h	/^  char** fake_argv_;$/;"	m	class:hector_geotiff::GeotiffWriter
+g	include/hector_geotiff/map_writer_interface.h	/^    unsigned int r,g,b;$/;"	m	struct:hector_geotiff::MapWriterInterface::Color
+geoTiffSizePixels	include/hector_geotiff/geotiff_writer.h	/^  Eigen::Vector2i geoTiffSizePixels;$/;"	m	class:hector_geotiff::GeotiffWriter
+geotiff_writer	src/geotiff_saver.cpp	/^    GeotiffWriter geotiff_writer;$/;"	m	class:hector_geotiff::MapGenerator	file:
+geotiff_writer_	src/geotiff_node.cpp	/^  GeotiffWriter geotiff_writer_;$/;"	m	class:hector_geotiff::MapGenerator	file:
+getBasePathAndFileName	src/geotiff_writer/geotiff_writer.cpp	/^std::string GeotiffWriter::getBasePathAndFileName() const$/;"	f	class:hector_geotiff::GeotiffWriter
+hector_geotiff	include/hector_geotiff/geotiff_writer.h	/^namespace hector_geotiff{$/;"	n
+hector_geotiff	include/hector_geotiff/map_writer_interface.h	/^namespace hector_geotiff{$/;"	n
+hector_geotiff	include/hector_geotiff/map_writer_plugin_interface.h	/^namespace hector_geotiff{$/;"	n
+hector_geotiff	src/geotiff_node.cpp	/^namespace hector_geotiff{$/;"	n	file:
+hector_geotiff	src/geotiff_saver.cpp	/^namespace hector_geotiff{$/;"	n	file:
+hector_geotiff	src/geotiff_writer/geotiff_writer.cpp	/^namespace hector_geotiff{$/;"	n	file:
+image	include/hector_geotiff/geotiff_writer.h	/^  QImage image;$/;"	m	class:hector_geotiff::GeotiffWriter
+leftTopMarginMeters	include/hector_geotiff/geotiff_writer.h	/^  Eigen::Vector2f leftTopMarginMeters;$/;"	m	class:hector_geotiff::GeotiffWriter
+main	src/geotiff_node.cpp	/^int main(int argc, char** argv)$/;"	f
+main	src/geotiff_saver.cpp	/^int main(int argc, char** argv)$/;"	f
+mapCallback	src/geotiff_saver.cpp	/^    void mapCallback(const nav_msgs::OccupancyGridConstPtr& map)$/;"	f	class:hector_geotiff::MapGenerator
+mapEndInGeotiff	include/hector_geotiff/geotiff_writer.h	/^  Eigen::Vector2f mapEndInGeotiff;$/;"	m	class:hector_geotiff::GeotiffWriter
+mapOrigInGeotiff	include/hector_geotiff/geotiff_writer.h	/^  Eigen::Vector2f mapOrigInGeotiff;$/;"	m	class:hector_geotiff::GeotiffWriter
+map_draw_font_	include/hector_geotiff/geotiff_writer.h	/^  QFont map_draw_font_;$/;"	m	class:hector_geotiff::GeotiffWriter
+map_file_name_	include/hector_geotiff/geotiff_writer.h	/^  std::string map_file_name_;$/;"	m	class:hector_geotiff::GeotiffWriter
+map_file_path_	include/hector_geotiff/geotiff_writer.h	/^  std::string map_file_path_;$/;"	m	class:hector_geotiff::GeotiffWriter
+map_geo_transformer_	include/hector_geotiff/geotiff_writer.h	/^  HectorMapTools::CoordinateTransformer<float> map_geo_transformer_;$/;"	m	class:hector_geotiff::GeotiffWriter
+map_save_timer_	src/geotiff_node.cpp	/^  ros::Timer map_save_timer_;$/;"	m	class:hector_geotiff::MapGenerator	file:
+map_service_client_	src/geotiff_node.cpp	/^  ros::ServiceClient map_service_client_;\/\/ = n.serviceClient<beginner_tutorials::AddTwoInts>("add_two_ints");$/;"	m	class:hector_geotiff::MapGenerator	file:
+map_sub_	src/geotiff_saver.cpp	/^    ros::Subscriber map_sub_;$/;"	m	class:hector_geotiff::MapGenerator	file:
+mapname_	src/geotiff_saver.cpp	/^    std::string mapname_;$/;"	m	class:hector_geotiff::MapGenerator	file:
+maxCoordsMap	include/hector_geotiff/geotiff_writer.h	/^  Eigen::Vector2i maxCoordsMap;$/;"	m	class:hector_geotiff::GeotiffWriter
+minCoordsMap	include/hector_geotiff/geotiff_writer.h	/^  Eigen::Vector2i minCoordsMap;$/;"	m	class:hector_geotiff::GeotiffWriter
+n_	src/geotiff_node.cpp	/^  ros::NodeHandle n_;$/;"	m	class:hector_geotiff::MapGenerator	file:
+object_service_client_	src/geotiff_node.cpp	/^  ros::ServiceClient object_service_client_;$/;"	m	class:hector_geotiff::MapGenerator	file:
+origin	include/hector_geotiff/geotiff_writer.h	/^  Eigen::Vector2f origin;$/;"	m	class:hector_geotiff::GeotiffWriter
+p_draw_background_checkerboard_	src/geotiff_node.cpp	/^  bool p_draw_background_checkerboard_;$/;"	m	class:hector_geotiff::MapGenerator	file:
+p_draw_free_space_grid_	src/geotiff_node.cpp	/^  bool p_draw_free_space_grid_;$/;"	m	class:hector_geotiff::MapGenerator	file:
+p_map_file_base_name_	src/geotiff_node.cpp	/^  std::string p_map_file_base_name_;$/;"	m	class:hector_geotiff::MapGenerator	file:
+p_map_file_path_	src/geotiff_node.cpp	/^  std::string p_map_file_path_;$/;"	m	class:hector_geotiff::MapGenerator	file:
+p_plugin_list_	src/geotiff_node.cpp	/^  std::string p_plugin_list_;$/;"	m	class:hector_geotiff::MapGenerator	file:
+path_service_client_	src/geotiff_node.cpp	/^  ros::ServiceClient path_service_client_;$/;"	m	class:hector_geotiff::MapGenerator	file:
+pixelsPerGeoTiffMeter	include/hector_geotiff/geotiff_writer.h	/^  float pixelsPerGeoTiffMeter;$/;"	m	class:hector_geotiff::GeotiffWriter
+pixelsPerMapMeter	include/hector_geotiff/geotiff_writer.h	/^  float pixelsPerMapMeter;$/;"	m	class:hector_geotiff::GeotiffWriter
+plugin_loader_	src/geotiff_node.cpp	/^  pluginlib::ClassLoader<hector_geotiff::MapWriterPluginInterface>* plugin_loader_;$/;"	m	class:hector_geotiff::MapGenerator	file:
+plugin_vector_	src/geotiff_node.cpp	/^  std::vector<boost::shared_ptr<hector_geotiff::MapWriterPluginInterface> > plugin_vector_;$/;"	m	class:hector_geotiff::MapGenerator	file:
+pn_	src/geotiff_node.cpp	/^  ros::NodeHandle pn_;$/;"	m	class:hector_geotiff::MapGenerator	file:
+r	include/hector_geotiff/map_writer_interface.h	/^    unsigned int r,g,b;$/;"	m	struct:hector_geotiff::MapWriterInterface::Color
+resolution	include/hector_geotiff/geotiff_writer.h	/^  float resolution;$/;"	m	class:hector_geotiff::GeotiffWriter
+resolutionFactor	include/hector_geotiff/geotiff_writer.h	/^  int resolutionFactor;$/;"	m	class:hector_geotiff::GeotiffWriter
+resolutionFactorf	include/hector_geotiff/geotiff_writer.h	/^  float resolutionFactorf;$/;"	m	class:hector_geotiff::GeotiffWriter
+rightBottomMarginMeters	include/hector_geotiff/geotiff_writer.h	/^  Eigen::Vector2f rightBottomMarginMeters;$/;"	m	class:hector_geotiff::GeotiffWriter
+rightBottomMarginPixels	include/hector_geotiff/geotiff_writer.h	/^  Eigen::Vector2i rightBottomMarginPixels;$/;"	m	class:hector_geotiff::GeotiffWriter
+rightBottomMarginPixelsf	include/hector_geotiff/geotiff_writer.h	/^  Eigen::Vector2f rightBottomMarginPixelsf;$/;"	m	class:hector_geotiff::GeotiffWriter
+running_saved_map_num_	src/geotiff_node.cpp	/^  unsigned int running_saved_map_num_;$/;"	m	class:hector_geotiff::MapGenerator	file:
+setMapFileName	src/geotiff_writer/geotiff_writer.cpp	/^void GeotiffWriter::setMapFileName(const std::string& mapFileName)$/;"	f	class:hector_geotiff::GeotiffWriter
+setMapFilePath	src/geotiff_writer/geotiff_writer.cpp	/^void GeotiffWriter::setMapFilePath(const std::string& mapFilePath)$/;"	f	class:hector_geotiff::GeotiffWriter
+setUseUtcTimeSuffix	src/geotiff_writer/geotiff_writer.cpp	/^void GeotiffWriter::setUseUtcTimeSuffix(bool useSuffix)$/;"	f	class:hector_geotiff::GeotiffWriter
+setupImageSize	src/geotiff_writer/geotiff_writer.cpp	/^void GeotiffWriter::setupImageSize()$/;"	f	class:hector_geotiff::GeotiffWriter
+setupTransforms	src/geotiff_writer/geotiff_writer.cpp	/^bool GeotiffWriter::setupTransforms(const nav_msgs::OccupancyGrid& map)$/;"	f	class:hector_geotiff::GeotiffWriter
+sizeMap	include/hector_geotiff/geotiff_writer.h	/^  Eigen::Vector2i sizeMap;$/;"	m	class:hector_geotiff::GeotiffWriter
+sizeMapf	include/hector_geotiff/geotiff_writer.h	/^  Eigen::Vector2f sizeMapf;$/;"	m	class:hector_geotiff::GeotiffWriter
+sysCmdCallback	src/geotiff_node.cpp	/^  void sysCmdCallback(const std_msgs::String& sys_cmd)$/;"	f	class:hector_geotiff::MapGenerator
+sys_cmd_sub_	src/geotiff_node.cpp	/^  ros::Subscriber sys_cmd_sub_;$/;"	m	class:hector_geotiff::MapGenerator	file:
+timerSaveGeotiffCallback	src/geotiff_node.cpp	/^  void timerSaveGeotiffCallback(const ros::TimerEvent& e)$/;"	f	class:hector_geotiff::MapGenerator
+totalMeters	include/hector_geotiff/geotiff_writer.h	/^  Eigen::Vector2f totalMeters;$/;"	m	class:hector_geotiff::GeotiffWriter
+transformPainterToImgCoords	src/geotiff_writer/geotiff_writer.cpp	/^void GeotiffWriter::transformPainterToImgCoords(QPainter& painter)$/;"	f	class:hector_geotiff::GeotiffWriter
+useCheckerboardCache	include/hector_geotiff/geotiff_writer.h	/^  bool useCheckerboardCache;$/;"	m	class:hector_geotiff::GeotiffWriter
+use_utc_time_suffix_	include/hector_geotiff/geotiff_writer.h	/^  bool use_utc_time_suffix_;$/;"	m	class:hector_geotiff::GeotiffWriter
+world_geo_transformer_	include/hector_geotiff/geotiff_writer.h	/^  HectorMapTools::CoordinateTransformer<float> world_geo_transformer_;$/;"	m	class:hector_geotiff::GeotiffWriter
+world_map_transformer_	include/hector_geotiff/geotiff_writer.h	/^  HectorMapTools::CoordinateTransformer<float> world_map_transformer_;$/;"	m	class:hector_geotiff::GeotiffWriter
+writeGeotiff	src/geotiff_node.cpp	/^  void writeGeotiff()$/;"	f	class:hector_geotiff::MapGenerator
+writeGeotiffImage	src/geotiff_writer/geotiff_writer.cpp	/^void GeotiffWriter::writeGeotiffImage()$/;"	f	class:hector_geotiff::GeotiffWriter
+~GeotiffWriter	src/geotiff_writer/geotiff_writer.cpp	/^GeotiffWriter::~GeotiffWriter()$/;"	f	class:hector_geotiff::GeotiffWriter
+~MapGenerator	src/geotiff_node.cpp	/^  ~MapGenerator()$/;"	f	class:hector_geotiff::MapGenerator
