@@ -58,8 +58,9 @@ public:
 
     void clear();
 
-	bool Save(const string &filename);
-	bool Load(const string &filename, ORBVocabulary &voc);
+    bool Delete(const string &filename); 
+    bool Save(const string &filename); 
+    bool Load(const string &filename, ORBVocabulary &voc);
 
     vector<KeyFrame*> mvpKeyFrameOrigins;
 

@@ -366,8 +366,12 @@ void System::Shutdown()
 
 Map* System::GetMap() {return this->mpMap;}
 
+bool System::DeleteMap(const string &filename) {
+  //cerr << "System delete " << filename << endl;
+  return mpMap->Delete(filename);
+}
 bool System::SaveMap(const string &filename) {
-  cerr << "System Saving to " << filename << endl;
+  //cerr << "System Saving to " << filename << endl;
   return mpMap->Save(filename);
 }
 

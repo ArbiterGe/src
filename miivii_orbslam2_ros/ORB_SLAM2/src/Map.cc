@@ -345,6 +345,23 @@ void Map::_WriteKeyFrame(ofstream &f, KeyFrame* kf, map<MapPoint*, unsigned long
 
 }
 
+bool Map::Delete(const string &filename) {
+  //cerr << "Map: Delete " << filename << endl;
+  ofstream f;
+  fstream file;
+  file.open(filename,ios::in);      
+  if(file)                          
+  {                                 
+    const char* ch=filename.c_str();
+    remove(ch);                     
+    cerr << "Delete " << filename <<" succeed"<< endl;
+  } 
+  else
+  {
+    cerr << "No " << filename <<" file"<< endl;
+  }                                
+  return true;
+}
 bool Map::Save(const string &filename) {
   cerr << "Map: Saving to " << filename << endl;
   ofstream f;

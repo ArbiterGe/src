@@ -39,7 +39,7 @@ execute_process(COMMAND sh build.sh
 
 find_package(catkin REQUIRED COMPONENTS roscpp rospy sensor_msgs std_msgs  cv_bridge tf message_filters  genmsg)
 
-add_service_files(DIRECTORY srv FILES  CreateMap.srv LoadMap.srv Relocation.srv SaveMap.srv)
+add_service_files(DIRECTORY srv FILES  CreateMap.srv DeleteMap.srv LoadMap.srv Relocation.srv SaveMap.srv)
 generate_messages(DEPENDENCIES std_msgs)
 
 #find_package(OpenCV REQUIRED)
@@ -97,6 +97,10 @@ add_executable(create_map_client src/create_map_client.cpp)
 target_link_libraries(create_map_client ${catkin_LIBRARIES})
 add_dependencies(create_map_client miivii_orbslam2_ros_gencpp)
 
+add_executable(delete_map_client src/delete_map_client.cpp)
+target_link_libraries(delete_map_client ${catkin_LIBRARIES})
+add_dependencies(delete_map_client miivii_orbslam2_ros_gencpp)
+
 add_executable(load_map_client src/load_map_client.cpp)
 target_link_libraries(load_map_client ${catkin_LIBRARIES})
 add_dependencies(load_map_client miivii_orbslam2_ros_gencpp)
@@ -109,7 +113,7 @@ add_executable(relocation_client src/relocation_client.cpp)
 target_link_libraries(relocation_client ${catkin_LIBRARIES})
 add_dependencies(relocation_client miivii_orbslam2_ros_gencpp)
 
-install(TARGETS RGBD create_map_client load_map_client save_map_client relocation_client ${ADDITIONAL_EXECUTABLES} 
+install(TARGETS RGBD create_map_client delete_map_client load_map_client save_map_client relocation_client ${ADDITIONAL_EXECUTABLES} 
         ARCHIVE DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}                                                      
         LIBRARY DESTINATION ${CATKIN_PACKAGE_LIB_DESTINATION}                                                      
         RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}                                                      

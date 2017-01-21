@@ -108,6 +108,7 @@ public:
 
     // TODO: Save/Load functions
     bool SaveMap(const string &filename);
+    bool DeleteMap(const string &filename);
     // LoadMap(const string &filename);
 
 

@@ -49,7 +49,6 @@
 #include "MapPublisher.hpp"
 #include "OdomPublisher.hpp"
 #include "miivii_orbslam2_ros/CreateMap.h"
-#include "miivii_orbslam2_ros/DeleteMap.h"
 #include "miivii_orbslam2_ros/LoadMap.h"
 #include "miivii_orbslam2_ros/SaveMap.h"
 #include "miivii_orbslam2_ros/Relocation.h"
@@ -82,7 +81,6 @@ ImageGrabber(ORB_SLAM2::System* pSLAM)
     }
     void GrabRGBD(const sensor_msgs::ImageConstPtr& msgRGB,const sensor_msgs::ImageConstPtr& msgD,const sensor_msgs::CameraInfoConstPtr& msgInfo);
     bool CreateMapStatus(miivii_orbslam2_ros::CreateMap::Request &req,miivii_orbslam2_ros::CreateMap::Response &res);            
-    bool DeleteMapStatus(miivii_orbslam2_ros::DeleteMap::Request &req,miivii_orbslam2_ros::DeleteMap::Response &res);            
     bool SaveMapStatus(miivii_orbslam2_ros::SaveMap::Request &req,miivii_orbslam2_ros::SaveMap::Response &res);
     bool RelocationStatus(miivii_orbslam2_ros::Relocation::Request &req,miivii_orbslam2_ros::Relocation::Response &res);                           
     bool LoadMapStatus(miivii_orbslam2_ros::SaveMap::Request &req,miivii_orbslam2_ros::SaveMap::Response &res); 
@@ -138,18 +136,7 @@ bool ImageGrabber::CreateMapStatus(miivii_orbslam2_ros::CreateMap::Request  &req
     info_sub.unsubscribe();
   }  
   return true;                                                             
-}   
-bool ImageGrabber::DeleteMapStatus(miivii_orbslam2_ros::DeleteMap::Request &req, 
-                                   miivii_orbslam2_ros::DeleteMap::Response &res)              
-{                                                                                
-  res.status = true;                                                             
-  ROS_INFO("DeleteMap response:%s", req.name.c_str());                           
-  mapName = req.name;                                                            
-  mpSLAM->DeleteMap(mapName+".map");                                             
-  return true;                                                                   
-}                                                                                
-
-
+}                                                                          
 bool ImageGrabber::LoadMapStatus(miivii_orbslam2_ros::SaveMap::Request  &req, 
                                  miivii_orbslam2_ros::SaveMap::Response &res) 
 {                                                            
@@ -318,7 +305,6 @@ int main(int argc, char **argv)
     ros::NodeHandle nh;
 
     ros::ServiceServer create_map_service = nh.advertiseService("/miivii_vslam/create_map", &ImageGrabber::CreateMapStatus,&igb);
-    ros::ServiceServer delete_map_service = nh.advertiseService("/miivii_vslam/delete_map", &ImageGrabber::DeleteMapStatus,&igb);
     ros::ServiceServer load_map_service = nh.advertiseService("/miivii_vslam/load_map", &ImageGrabber::LoadMapStatus,&igb);          
     ros::ServiceServer save_map_service = nh.advertiseService("/miivii_vslam/save_map", &ImageGrabber::SaveMapStatus,&igb);          
     ros::ServiceServer relocate_service = nh.advertiseService("/miivii_vslam/relocation", &ImageGrabber::RelocationStatus,&igb);
@@ -405,6 +391,8 @@ void ImageGrabber::GrabRGBD(const sensor_msgs::ImageConstPtr& msgRGB,const senso
     }                                                                          
     cloudCnt++;                                       
     
+    static tf::TransformBroadcaster laser_broadcaster;
+    tf::Transform laser_transform;                    
 
     if(!currFrame->mTcw.empty()) 
     {
@@ -412,12 +400,12 @@ void ImageGrabber::GrabRGBD(const sensor_msgs::ImageConstPtr& msgRGB,const senso
       if(!currFrame->mpRelocalizing)                   
       {  
         sensor_msgs::Image imageD = *msgD;                                                                           
-        imageD.header.stamp = msgInfo->header.stamp;
+        //imageD.header.stamp = msgInfo->header.stamp;
         //imageD.header.stamp = ros::Time::now();
         sensor_msgs::CameraInfo depthInfo = *msgInfo;
         //depthInfo.header.stamp = msgInfo->header.stamp;
         //depthInfo.header.stamp = ros::Time::now();
-        imageD.header.frame_id = "/camera_depth_frame";
+        //imageD.header.frame_id = "/camera_depth_frame";
         
         //imageD.header.frame_id = "/camera_depth_frame";  
         //imageD.header.child_frame_id = "/camera_depth_frame";  
@@ -432,7 +420,7 @@ void ImageGrabber::GrabRGBD(const sensor_msgs::ImageConstPtr& msgRGB,const senso
         
         cv::Mat Twc = (currFrame->mTcw).inv();                                                                       
         Eigen::Matrix<double,3,3> eigMat =ORB_SLAM2::Converter::toMatrix3d(Twc);                                     
-        //Eigen::Vector3d ea = eigMat.eulerAngles(0, 1, 2);                                                            
+        Eigen::Vector3d ea = eigMat.eulerAngles(0, 1, 2);                                                            
         cv::Mat tcwMat = Twc.rowRange(0,3).col(3);                                                                   
                                                                                                                      
         //imageD.header.stamp = msgInfo->header.stamp;                                                                 
@@ -440,29 +428,16 @@ void ImageGrabber::GrabRGBD(const sensor_msgs::ImageConstPtr& msgRGB,const senso
         depth_pub.publish(imageD);                                                                                   
         camera_info_pub.publish(msgInfo);                                                                            
                                                                                                                      
-        static tf::TransformBroadcaster laser_broadcaster;
-        tf::Transform laser_transform;                    
         laser_transform.setOrigin( tf::Vector3(tcwMat.at<float>(2), -tcwMat.at<float>(0),-tcwMat.at<float>(1)) );    
+        
         Eigen::Quaterniond qMat(eigMat);                     
         tf::Quaternion q(qMat.z(),-qMat.x(),-qMat.y(),qMat.w());        
         //q.setRPY(-ea[2],ea[0],-ea[1]);                                                                               
         laser_transform.setRotation(q);                                                                              
         laser_broadcaster.sendTransform(tf::StampedTransform(laser_transform, imageD.header.stamp, "map", "odom"));  
                                                                                                                     
-        static tf::TransformBroadcaster odom_base_broadcaster;
-        tf::Transform odom_base_transform;                    
-        odom_base_transform.setIdentity(); 
-        odom_base_broadcaster.sendTransform(tf::StampedTransform(odom_base_transform, imageD.header.stamp, "odom", "base_link"));  
-        
-        static tf::TransformBroadcaster base_camera_broadcaster;
-        tf::Transform base_camera_transform;                    
-        base_camera_transform.setIdentity(); 
-        base_camera_broadcaster.sendTransform(tf::StampedTransform(base_camera_transform, imageD.header.stamp, "base_link", "camera_link"));  
-        
-        static tf::TransformBroadcaster camera_depth_broadcaster;
-        tf::Transform camera_depth_transform;                    
-        camera_depth_transform.setIdentity(); 
-        camera_depth_broadcaster.sendTransform(tf::StampedTransform(camera_depth_transform, imageD.header.stamp, "camera_link", "camera_depth_frame"));  
+        tf::Transform laser_transform;                    
+         
       } 
     
       if(currFrame->keyFrame)
